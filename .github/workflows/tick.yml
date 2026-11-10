@@ -1,0 +1,16 @@
+name: tick
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Panggil bot
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          curl -sS --max-time 120 -w "\nHTTP %{http_code}\n" \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            https://uas-bot-trading.vercel.app/api/tick
