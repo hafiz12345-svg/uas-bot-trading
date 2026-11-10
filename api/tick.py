@@ -12,7 +12,7 @@ TF_SEC = 3600
 
 # ===== PARAMETER (dibekukan saat freeze) =====
 MODAL = 100_000_000        # modal virtual (Rp)
-FEE_TAKER = 0.003          # 0,3% (sementara; samakan dengan angka all-in resmi sebelum freeze)
+FEE_TAKER = 0.0041555      # 0,41555% = taker jual all-in IDR Pro (angka terbesar; lihat README)
 MIN_ORDER = 25_000         # minimum order (Rp)
 MAX_POSITIONS = 3          # maksimum posisi terbuka
 MAX_POS_FRAC = 0.30        # maksimum 30% equity per posisi
