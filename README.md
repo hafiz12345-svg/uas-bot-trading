@@ -8,12 +8,12 @@ Bot (endpoint terlindungi): https://uas-bot-trading.vercel.app/api/tick
 Saya baru mulai mengerjakan UAS ini pada Senin 9 November 2026 karna saya punya kendala di laptopnya rusak dan sudah mencoba berusaha buat minjem, setelah freeze date di soal (Rabu 4 November 2026, 12.00 WIB). Saya sudah menghubungi dosen lewat WhatsApp
 - Bot ter-deploy di Vercel dan dipanggil terjadwal sejak Selasa 10 November 2026 sekitar pukul 15.20 WIB (versi 1: hanya mencatat sinyal).
 - Versi 2 (eksekusi simulasi dan risk management) aktif sekitar pukul 15.45 WIB hari yang sama.
-- Commit freeze adalah commit dengan pesan "FREEZE: aturan, parameter, universe". Hash dan jamnya dicatat di bagian "Bukti freeze".
+- Commit freeze adalah commit 0f1b628. Hash dan jamnya dicatat di bagian "Bukti freeze".
 - Forward test berjalan dari commit freeze sampai pengumpulan, jadi kurang dari 10 hari (sekitar 4 hari). Tidak ada tanggal commit yang diubah dan tidak ada riwayat yang ditulis ulang.
 
 ## Bukti freeze
-- Hash commit freeze: (diisi setelah commit)
-- Waktu commit freeze: (diisi setelah commit)
+- Hash commit freeze: 0f1b628
+- Waktu commit freeze: 10 November 2026, 16.11 WIB
 
 ## Strategi (breakout Donchian, long-only)
 - Timeframe 1 jam. Sinyal hanya dihitung dari candle yang sudah tertutup.
