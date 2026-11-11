@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard Bot Dry Run Indodax</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#14171f;--mut:#5d6575;--line:#e3e6ec;--acc:#1f6feb;--pos:#1a7f45;--neg:#c62828}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1218;--card:#181c25;--tx:#e8ebf1;--mut:#9aa3b5;--line:#2a303c;--acc:#5b9bff;--pos:#4cc58a;--neg:#ff7b72}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:22px;margin:0 0 4px} h2{font-size:17px;margin:32px 0 10px}
+.sub{color:var(--mut);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.tile .k{font-size:12px;color:var(--mut)} .tile .v{font-size:20px;font-weight:600;margin-top:2px;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)} .neg{color:var(--neg)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
+svg{width:100%;height:auto;display:block} svg text{fill:var(--mut);font-size:11px}
+.tbl{overflow-x:auto} table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap} th:first-child,td:first-child{text-align:left}
+th{color:var(--mut);font-weight:500}
+.note{color:var(--mut);font-size:13px;margin-top:8px} .err{color:var(--neg)}
+</style>
+</head>
+<body>
+<main>
+<h1>Dashboard Bot Dry Run Indodax</h1>
+<div class="sub" id="meta">Memuat data…</div>
+
+<h2>Forward test</h2>
+<div class="grid" id="fwdTiles"></div>
+<div class="card" style="margin-top:10px"><div class="sub" style="margin-bottom:4px">Kurva equity (WIB)</div><div id="fwdChart"></div></div>
+<h2>Order</h2>
+<div class="card tbl" id="orders"></div>
+<h2>Kesehatan bot</h2>
+<div class="grid" id="health"></div>
+<div class="note" id="skip"></div>
+
+<h2>Backtest (≥ 3 tahun, fungsi sinyal sama)</h2>
+<div class="grid" id="btTiles"></div>
+<div class="card" style="margin-top:10px"><div class="sub" style="margin-bottom:4px">Kurva equity backtest</div><div id="btChart"></div></div>
+<div class="note" id="btNote"></div>
+<div class="note" id="cmp"></div>
+</main>
+<script>
+/* Semua angka dibaca dari data. Versi offline: Colab mengganti blok EMBED dengan isi JSON. */
+const EMBED = /*EMBED*/null/*END*/;
+const $ = id => document.getElementById(id);
+const nf = (x,d=0)=> x==null||isNaN(x)?'–':Number(x).toLocaleString('id-ID',{minimumFractionDigits:d,maximumFractionDigits:d});
+const rp = x => x==null?'–':'Rp'+nf(x,0);
+const pct = (x,d=2)=> x==null?'–':(x>0?'+':'')+nf(x,d)+'%';
+const wib = s => new Date(s).toLocaleString('id-ID',{timeZone:'Asia/Jakarta',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false});
+const cls = x => x==null||x===0?'':(x>0?'pos':'neg');
+const tile = (k,v,c='') => `<div class="tile"><div class="k">${k}</div><div class="v ${c}">${v}</div></div>`;
+
+async function load(name){
+  if(EMBED) return EMBED[name] ?? null;
+  try{ const r=await fetch(name+'.json?'+Date.now()); if(!r.ok) return null; return await r.json(); }catch(e){ return null; }
+}
+
+function lineChart(el, pts, base){
+  if(!pts||pts.length<2){ el.innerHTML='<div class="note">Data belum cukup untuk grafik.</div>'; return; }
+  const W=900,H=260,L=70,R=12,T=10,B=26;
+  const xs=pts.map(p=>new Date(p[0]).getTime()), ys=pts.map(p=>p[1]);
+  let x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys,base??Infinity),y1=Math.max(...ys,base??-Infinity);
+  if(y1===y0){y1+=1;y0-=1} const pad=(y1-y0)*.08; y0-=pad;y1+=pad;
+  const X=t=>L+(t-x0)/(x1-x0||1)*(W-L-R), Y=v=>T+(1-(v-y0)/(y1-y0))*(H-T-B);
+  const d=pts.map((p,i)=>(i?'L':'M')+X(xs[i]).toFixed(1)+' '+Y(ys[i]).toFixed(1)).join(' ');
+  let g='';
+  for(let i=0;i<=4;i++){const v=y0+(y1-y0)*i/4,y=Y(v);g+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" stroke="var(--line)"/><text x="${L-6}" y="${y+4}" text-anchor="end">${nf(v/1e6,2)} jt</text>`}
+  for(let i=0;i<=3;i++){const t=x0+(x1-x0)*i/3;g+=`<text x="${X(t)}" y="${H-8}" text-anchor="${i==3?'end':i==0?'start':'middle'}">${new Date(t).toLocaleDateString('id-ID',{timeZone:'Asia/Jakarta',day:'2-digit',month:'short',year:(x1-x0)>2e10?'2-digit':undefined})}</text>`}
+  const b = base!=null?`<line x1="${L}" x2="${W-R}" y1="${Y(base)}" y2="${Y(base)}" stroke="var(--mut)" stroke-dasharray="4 4"/>`:'';
+  el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Kurva equity">${g}${b}<path d="${d}" fill="none" stroke="var(--acc)" stroke-width="2"/></svg>`;
+}
+
+function renderForward(f){
+  if(!f){ $('fwdTiles').innerHTML='<div class="err">hasil_forward.json tidak ditemukan.</div>'; return; }
+  $('meta').textContent = `Freeze: ${wib(f.freeze_utc)} WIB · dihitung ulang dari log mentah: ${wib(f.dihitung_utc)} WIB`;
+  $('fwdTiles').innerHTML =
+    tile('Equity akhir', rp(f.equity_akhir)) +
+    tile('Return', pct(f.return_pct), cls(f.return_pct)) +
+    tile('Max drawdown', pct(f.max_drawdown_pct), cls(f.max_drawdown_pct)) +
+    tile('Jumlah order', nf(f.jumlah_order)) +
+    tile('Trade tertutup', nf(f.trade_tertutup)) +
+    tile('Win ratio', f.win_ratio_pct==null?'belum ada trade tertutup':nf(f.win_ratio_pct,1)+'%') +
+    tile('Total fee', rp(f.total_fee)) +
+    tile('Fill vs harga sinyal', f.selisih_fill_vs_sinyal_rata2_pct==null?'–':pct(f.selisih_fill_vs_sinyal_rata2_pct,3));
+  lineChart($('fwdChart'), f.kurva_equity, f.kurva_equity&&f.kurva_equity[0]?f.kurva_equity[0][1]:null);
+  const o=f.orders||[];
+  $('orders').innerHTML = o.length ? `<table><thead><tr><th>Waktu (WIB)</th><th>Pair</th><th>Sisi</th><th>Qty</th><th>Harga fill</th><th>Harga sinyal</th><th>Selisih</th><th>Level book</th><th>Fee</th><th>PnL</th></tr></thead><tbody>`+
+    o.map(r=>`<tr><td>${wib(r.waktu_utc)}</td><td>${r.pair}</td><td>${r.sisi}</td><td>${nf(r.qty,6)}</td><td>${rp(r.harga_fill)}</td><td>${rp(r.harga_sinyal)}</td><td class="${cls(r.selisih_pct)}">${pct(r.selisih_pct,3)}</td><td>${r.level_dipakai??'–'}</td><td>${rp(r.fee)}</td><td class="${cls(r.pnl)}">${r.pnl==null?'–':rp(r.pnl)}</td></tr>`).join('')+'</tbody></table>'
+    : '<div class="note">Belum ada order.</div>';
+  const sp=f.median_spread_pct||{};
+  $('health').innerHTML =
+    tile('Panggilan bot', nf(f.panggilan)) +
+    tile('Uptime', `${nf(f.uptime_pct,1)}%`) + 
+    tile('Jam selesai terpanggil', `${nf(f.jam_selesai_terpanggil)} dari ${nf(f.jam_selesai_seharusnya)}`) +
+    tile('Keterlambatan median', nf(f.keterlambatan_menit_median,1)+' menit') +
+    tile('Keterlambatan maks', nf(f.keterlambatan_menit_maks,1)+' menit') +
+    tile('Error', nf(f.error_total)) +
+    tile('Snapshot order book', nf(f.jumlah_snapshot)) +
+    Object.keys(sp).map(k=>tile('Median spread '+k, nf(sp[k],4)+'%')).join('');
+  const sk=f.alasan_skip||{}, ks=Object.keys(sk);
+  $('skip').textContent = 'Alasan sinyal dilewati: ' + (ks.length? ks.map(k=>`${k} (${sk[k]})`).join(', ') : 'tidak ada.');
+}
+
+function renderBacktest(b,f){
+  if(!b){ $('btTiles').innerHTML='<div class="note">hasil_backtest.json belum tersedia.</div>'; $('btChart').parentElement.style.display='none'; return; }
+  const s=b.ringkasan||{};
+  $('btTiles').innerHTML =
+    tile('Periode', s.periode||'–') +
+    tile('Return', pct(s.return_pct), cls(s.return_pct)) +
+    tile('Max drawdown', pct(s.max_drawdown_pct), cls(s.max_drawdown_pct)) +
+    tile('Jumlah trade', nf(s.jumlah_trade)) +
+    tile('Win ratio', s.win_ratio_pct==null?'–':nf(s.win_ratio_pct,1)+'%') +
+    tile('Profit factor', nf(s.profit_factor,2)) +
+    (s.buy_hold_pct==null?'':tile('Buy & hold', pct(s.buy_hold_pct), cls(s.buy_hold_pct)));
+  lineChart($('btChart'), b.kurva_equity, b.kurva_equity&&b.kurva_equity[0]?b.kurva_equity[0][1]:null);
+  $('btNote').textContent = b.catatan||'';
+  if(f&&s.return_pct!=null){
+    $('cmp').textContent = `Perbandingan: backtest ${pct(s.return_pct)} dalam ${s.periode||'periodenya'}; forward test ${pct(f.return_pct)} dalam ${nf(f.panggilan)} panggilan. Sampel forward masih sangat pendek, jadi keduanya belum bisa dibandingkan langsung.`;
+  }
+}
+
+(async()=>{
+  const [f,b]=await Promise.all([load('hasil_forward'),load('hasil_backtest')]);
+  renderForward(f); renderBacktest(b,f);
+})();
+</script>
+</body>
+</html>
