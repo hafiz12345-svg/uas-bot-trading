@@ -65,7 +65,7 @@ function lineChart(el, pts, base){
   const W=900,H=260,L=70,R=12,T=10,B=26;
   const xs=pts.map(p=>new Date(p[0]).getTime()), ys=pts.map(p=>p[1]);
   let x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys,base??Infinity),y1=Math.max(...ys,base??-Infinity);
-  if(y1===y0){y1+=1;y0-=1} const pad=(y1-y0)*.08; y0-=pad;y1+=pad;
+  if(y1===y0){y1+=1;y0-=1} const nonneg=Math.min(...ys)>=0; const pad=(y1-y0)*.08; y0-=pad;y1+=pad; if(nonneg) y0=Math.max(0,y0);
   const X=t=>L+(t-x0)/(x1-x0||1)*(W-L-R), Y=v=>T+(1-(v-y0)/(y1-y0))*(H-T-B);
   const d=pts.map((p,i)=>(i?'L':'M')+X(xs[i]).toFixed(1)+' '+Y(ys[i]).toFixed(1)).join(' ');
   let g='';
