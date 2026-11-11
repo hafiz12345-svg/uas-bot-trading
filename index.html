@@ -70,7 +70,8 @@ function lineChart(el, pts, base){
   const d=pts.map((p,i)=>(i?'L':'M')+X(xs[i]).toFixed(1)+' '+Y(ys[i]).toFixed(1)).join(' ');
   let g='';
   for(let i=0;i<=4;i++){const v=y0+(y1-y0)*i/4,y=Y(v);g+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" stroke="var(--line)"/><text x="${L-6}" y="${y+4}" text-anchor="end">${nf(v/1e6,2)} jt</text>`}
-  for(let i=0;i<=3;i++){const t=x0+(x1-x0)*i/3;g+=`<text x="${X(t)}" y="${H-8}" text-anchor="${i==3?'end':i==0?'start':'middle'}">${new Date(t).toLocaleDateString('id-ID',{timeZone:'Asia/Jakarta',day:'2-digit',month:'short',year:(x1-x0)>2e10?'2-digit':undefined})}</text>`}
+  for(let i=0;i<=3;i++){const t=x0+(x1-x0)*i/3;const pendek=(x1-x0)<3*864e5; const lbl=pendek?new Date(t).toLocaleString('id-ID',{timeZone:'Asia/Jakarta',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false}):new Date(t).toLocaleDateString('id-ID',{timeZone:'Asia/Jakarta',day:'2-digit',month:'short',year:(x1-x0)>2e10?'2-digit':undefined});
+    g+=`<text x="${X(t)}" y="${H-8}" text-anchor="${i==3?'end':i==0?'start':'middle'}">${lbl}</text>`}
   const b = base!=null?`<line x1="${L}" x2="${W-R}" y1="${Y(base)}" y2="${Y(base)}" stroke="var(--mut)" stroke-dasharray="4 4"/>`:'';
   el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Kurva equity">${g}${b}<path d="${d}" fill="none" stroke="var(--acc)" stroke-width="2"/></svg>`;
 }
