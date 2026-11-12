@@ -143,4 +143,19 @@ bisa dicek di riwayat commit):
 | `.github/workflows/tick.yml`: menambah jadwal cadangan di menit ke-27 dan ke-47 (selain menit ke-7), 12 Nov 2026 | GitHub Actions sering terlambat 45-55 menit dan kadang melewatkan jam, sehingga uptime turun. Jadwal tambahan memperbesar peluang tiap jam terproses minimal satu kali | Tidak. Ini perubahan infrastruktur penjadwal. Bot tetap memproses tiap candle sekali (idempotency), jadi sinyal dan order tidak berubah |
 | Fee dicek ulang ke halaman resmi Indodax (lihat Sumber fee) | Syarat ujian: cek dua sumber | Tidak, angkanya sama |
 
-Pengujian kill switch dicatat di bagian bawah setelah dilakukan.
+### Uji kill switch (12 Nov 2026)
+
+Kill switch diuji satu kali pada 12 Nov 2026 sekitar 20.17 WIB, setelah candle
+jam 20.00 selesai diproses supaya tidak ada candle yang terlewat:
+
+1. Key Redis `kill_switch` diisi `1`.
+2. Bot dipanggil manual lewat GitHub Actions (tick #60, `workflow_dispatch`).
+3. Balasan bot: `{"waktu_utc": "2026-11-12T13:17:55...", "hasil": [], "error": [], "kill_switch": true}`
+   dengan HTTP 200. Tidak ada pair yang diproses dan tidak ada order.
+4. Key `kill_switch` dihapus (`DEL`), dan bot kembali normal.
+
+Panggilan ini tercatat di log dan muncul pada kotak "Kill switch dipakai" di
+dashboard. Panggilan ini bukan perubahan aturan atau kode.
+
+Daily loss limit belum pernah terpicu selama forward test (belum ada hari
+dengan rugi 3%), jadi belum ada bukti di log untuk fitur itu.
