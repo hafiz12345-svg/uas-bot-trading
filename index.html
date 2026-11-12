@@ -34,9 +34,16 @@ th{color:var(--mut);font-weight:500}
 <div class="card" style="margin-top:10px"><div class="sub" style="margin-bottom:4px">Kurva equity (WIB)</div><div id="fwdChart"></div></div>
 <h2>Order</h2>
 <div class="card tbl" id="orders"></div>
+<h2>Equity harian (panggilan pertama setelah 00.00 WIB)</h2>
+<div class="card tbl" id="harian"></div>
 <h2>Kesehatan bot</h2>
 <div class="grid" id="health"></div>
 <div class="note" id="skip"></div>
+
+<h2>Kecocokan backtest vs forward (jendela waktu yang sama)</h2>
+<div class="grid" id="kcTiles"></div>
+<div class="card tbl" id="kcFill" style="margin-top:10px"></div>
+<div class="note" id="kcNote"></div>
 
 <h2>Backtest (≥ 3 tahun, fungsi sinyal sama)</h2>
 <div class="grid" id="btTiles"></div>
@@ -49,7 +56,7 @@ th{color:var(--mut);font-weight:500}
 const EMBED = /*EMBED*/null/*END*/;
 const $ = id => document.getElementById(id);
 const nf = (x,d=0)=> x==null||isNaN(x)?'–':Number(x).toLocaleString('id-ID',{minimumFractionDigits:d,maximumFractionDigits:d});
-const rp = x => x==null?'–':'Rp'+nf(x,0);
+const rp = x => x==null?'–':(x<0?'-Rp'+nf(-x,0):'Rp'+nf(x,0));
 const pct = (x,d=2)=> x==null?'–':(x>0?'+':'')+nf(x,d)+'%';
 const wib = s => new Date(s).toLocaleString('id-ID',{timeZone:'Asia/Jakarta',day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false});
 const cls = x => x==null||x===0?'':(x>0?'pos':'neg');
@@ -86,6 +93,10 @@ function renderForward(f){
     tile('Jumlah order', nf(f.jumlah_order)) +
     tile('Trade tertutup', nf(f.trade_tertutup)) +
     tile('Win ratio', f.win_ratio_pct==null?'belum ada trade tertutup':nf(f.win_ratio_pct,1)+'%') +
+    tile('Profit factor', f.profit_factor==null?'belum ada trade tertutup':nf(f.profit_factor,2)) +
+    tile('Rata-rata untung / trade', f.rata2_untung==null?'–':rp(f.rata2_untung)) +
+    tile('Rata-rata rugi / trade', f.rata2_rugi==null?'–':rp(f.rata2_rugi)) +
+    tile('Porsi biaya (fee+spread+slippage) / laba kotor', f.porsi_biaya_pct==null?'belum bermakna (laba kotor ≤ 0 atau belum ada trade tertutup)':nf(f.porsi_biaya_pct,1)+'%') +
     tile('Total fee', rp(f.total_fee)) +
     tile('Fill vs harga sinyal', f.selisih_fill_vs_sinyal_rata2_pct==null?'–':pct(f.selisih_fill_vs_sinyal_rata2_pct,3));
   lineChart($('fwdChart'), f.kurva_equity, f.kurva_equity&&f.kurva_equity[0]?f.kurva_equity[0][1]:null);
@@ -93,6 +104,9 @@ function renderForward(f){
   $('orders').innerHTML = o.length ? `<table><thead><tr><th>Waktu (WIB)</th><th>Pair</th><th>Sisi</th><th>Qty</th><th>Harga fill</th><th>Harga sinyal</th><th>Selisih</th><th>Level book</th><th>Fee</th><th>PnL</th></tr></thead><tbody>`+
     o.map(r=>`<tr><td>${wib(r.waktu_utc)}</td><td>${r.pair}</td><td>${r.sisi}</td><td>${nf(r.qty,6)}</td><td>${rp(r.harga_fill)}</td><td>${rp(r.harga_sinyal)}</td><td class="${cls(r.selisih_pct)}">${pct(r.selisih_pct,3)}</td><td>${r.level_dipakai??'–'}</td><td>${rp(r.fee)}</td><td class="${cls(r.pnl)}">${r.pnl==null?'–':rp(r.pnl)}</td></tr>`).join('')+'</tbody></table>'
     : '<div class="note">Belum ada order.</div>';
+  const h=f.equity_harian||[];
+  $('harian').innerHTML = h.length ? `<table><thead><tr><th>Hari (WIB)</th><th>Dicatat (WIB)</th><th>Equity</th></tr></thead><tbody>`+
+    h.map(r=>`<tr><td>${r.hari_wib}</td><td>${wib(r.waktu_utc)}</td><td>${rp(r.equity)}</td></tr>`).join('')+'</tbody></table>' : '<div class="note">Belum ada.</div>';
   const sp=f.median_spread_pct||{};
   $('health').innerHTML =
     tile('Panggilan bot', nf(f.panggilan)) +
@@ -100,11 +114,17 @@ function renderForward(f){
     tile('Jam selesai terpanggil', `${nf(f.jam_selesai_terpanggil)} dari ${nf(f.jam_selesai_seharusnya)}`) +
     tile('Keterlambatan median', nf(f.keterlambatan_menit_median,1)+' menit') +
     tile('Keterlambatan maks', nf(f.keterlambatan_menit_maks,1)+' menit') +
-    tile('Error', nf(f.error_total)) +
+    tile('Error API', nf(f.error_total)) +
+    tile('Kill switch dipakai', nf(f.kill_switch_dipakai)+'×') +
+    tile('Panggilan ganda ditolak (idempotency)', nf(f.candle_sudah_diproses)+' candle') +
+    tile('Panggilan bentrok (LOCKED)', nf(f.panggilan_locked)) +
+    tile('Panggilan dengan daily loss halt', nf(f.panggilan_daily_loss_halt)) +
     tile('Snapshot order book', nf(f.jumlah_snapshot)) +
     Object.keys(sp).map(k=>tile('Median spread '+k, nf(sp[k],4)+'%')).join('');
   const sk=f.alasan_skip||{}, ks=Object.keys(sk);
-  $('skip').textContent = 'Alasan sinyal dilewati: ' + (ks.length? ks.map(k=>`${k} (${sk[k]})`).join(', ') : 'tidak ada.');
+  const dt=f.alasan_ditolak||{}, kd=Object.keys(dt);
+  $('skip').textContent = 'Alasan candle dilewati: ' + (ks.length? ks.map(k=>`${k} (${sk[k]})`).join(', ') : 'tidak ada.') +
+    ' · Order ditolak: ' + (kd.length? kd.map(k=>`${k} (${dt[k]})`).join(', ') : 'tidak ada.');
 }
 
 function renderBacktest(b,f){
@@ -112,12 +132,19 @@ function renderBacktest(b,f){
   const s=b.ringkasan||{};
   $('btTiles').innerHTML =
     tile('Periode', s.periode||'–') +
-    tile('Return', pct(s.return_pct), cls(s.return_pct)) +
+    tile('Return total', pct(s.return_pct), cls(s.return_pct)) +
+    tile('CAGR', s.cagr_pct==null?'–':pct(s.cagr_pct), cls(s.cagr_pct)) +
     tile('Max drawdown', pct(s.max_drawdown_pct), cls(s.max_drawdown_pct)) +
     tile('Jumlah trade', nf(s.jumlah_trade)) +
     tile('Win ratio', s.win_ratio_pct==null?'–':nf(s.win_ratio_pct,1)+'%') +
     tile('Profit factor', nf(s.profit_factor,2)) +
-    (s.buy_hold_pct==null?'':tile('Buy & hold', pct(s.buy_hold_pct), cls(s.buy_hold_pct)));
+    tile('Rata-rata untung / trade', s.rata2_untung==null?'–':rp(s.rata2_untung)) +
+    tile('Rata-rata rugi / trade', s.rata2_rugi==null?'–':rp(s.rata2_rugi)) +
+    tile('Laba kotor sebelum biaya', s.laba_kotor_sebelum_biaya==null?'–':rp(s.laba_kotor_sebelum_biaya)) +
+    tile('Total fee', s.total_fee==null?'–':rp(s.total_fee)) +
+    tile('Total spread + slippage', s.total_spread_slippage==null?'–':rp(s.total_spread_slippage)) +
+    tile('Porsi biaya / laba kotor', s.porsi_biaya_pct==null?'belum bermakna':nf(s.porsi_biaya_pct,1)+'%') +
+    (s.buy_hold_btc_pct==null?'':tile('Buy & hold BTC/IDR (periode sama)', pct(s.buy_hold_btc_pct), cls(s.buy_hold_btc_pct)));
   lineChart($('btChart'), b.kurva_equity, b.kurva_equity&&b.kurva_equity[0]?b.kurva_equity[0][1]:null);
   $('btNote').textContent = b.catatan||'';
   if(f&&s.return_pct!=null){
@@ -125,9 +152,29 @@ function renderBacktest(b,f){
   }
 }
 
+function renderKecocokan(k,f){
+  if(!k){ $('kcTiles').innerHTML='<div class="note">hasil_kecocokan.json belum tersedia.</div>'; $('kcFill').parentElement.style.display='none'; return; }
+  const m=k.metrik_backtest_jendela||{};
+  const tdp=(k.candle_tidak_diproses_bot||[]).length;
+  $('kcTiles').innerHTML =
+    tile('Kecocokan sinyal bot vs backtest', k.kecocokan_pct==null?'–':nf(k.kecocokan_pct,1)+'%') +
+    tile('Sinyal sama / dibandingkan', `${nf(k.sinyal_sama)} dari ${nf(k.candle_dibandingkan)}`) +
+    tile('Pair-candle tidak diproses bot', nf(tdp)) +
+    tile('Jendela', `${wib(new Date(k.jendela_candle_awal*1000).toISOString())} – ${wib(new Date(k.jendela_candle_akhir*1000).toISOString())}`) +
+    tile('Return backtest (jendela ini)', m.return_pct==null?'–':pct(m.return_pct), cls(m.return_pct)) +
+    tile('Return forward (bot)', f?pct(f.return_pct):'–', f?cls(f.return_pct):'') +
+    tile('Trade backtest (jendela ini)', nf(k.trade_backtest_pada_jendela)) +
+    tile('Buy & hold BTC/IDR (jendela ini)', k.buy_hold_btc_jendela_pct==null?'–':pct(k.buy_hold_btc_jendela_pct,2), cls(k.buy_hold_btc_jendela_pct));
+  const fl=k.perbandingan_fill||[];
+  $('kcFill').innerHTML = fl.length ? `<table><thead><tr><th>Waktu (WIB)</th><th>Pair</th><th>Sisi</th><th>Fill bot</th><th>Fill backtest</th><th>Selisih total</th><th>Dari keterlambatan jadwal</th><th>Spread+slip bot</th><th>Spread+slip backtest</th></tr></thead><tbody>`+
+    fl.map(r=>`<tr><td>${wib(r.waktu_bot_utc)}</td><td>${r.pair}</td><td>${r.sisi}</td><td>${rp(r.harga_fill_bot)}</td><td>${rp(r.harga_fill_backtest)}</td><td class="${cls(r.selisih_total_pct)}">${pct(r.selisih_total_pct,3)}</td><td>${pct(r.komponen_keterlambatan_jadwal_pct,3)}</td><td>${nf(r.komponen_spread_slippage_bot_pct,4)}%</td><td>${nf(r.komponen_spread_slippage_backtest_pct,4)}%</td></tr>`).join('')+'</tbody></table>'
+    : '<div class="note">Belum ada order untuk dibandingkan.</div>';
+  $('kcNote').textContent = 'Selisih total = fill bot dibanding fill backtest. Pada BUY, minus = bot membeli lebih murah; pada SELL, minus = bot menjual lebih rendah. Komponen jadwal = pergerakan harga antara open candle berikutnya (asumsi backtest) dan saat bot benar-benar mengeksekusi.';
+}
+
 (async()=>{
-  const [f,b]=await Promise.all([load('hasil_forward'),load('hasil_backtest')]);
-  renderForward(f); renderBacktest(b,f);
+  const [f,b,k]=await Promise.all([load('hasil_forward'),load('hasil_backtest'),load('hasil_kecocokan')]);
+  renderForward(f); renderBacktest(b,f); renderKecocokan(k,f);
 })();
 </script>
 </body>

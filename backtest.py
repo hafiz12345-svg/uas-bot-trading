@@ -275,6 +275,8 @@ def bandingkan(candles, biaya, file_sinyal, file_orders):
              "kecocokan_pct": round(100 * cocok / len(baris), 2) if baris else None,
              "sinyal_berbeda": selisih,
              "candle_tidak_diproses_bot": [{"pair": p, "candle": c} for p, c in tidak_diproses],
+             "buy_hold_btc_jendela_pct": (lambda w: round((w[-1]["Close"] / w[0]["Open"] - 1) * 100, 3) if w else None)(
+                 [c for c in candles["BTCIDR"] if t0 <= c["Time"] <= t1]),
              "trade_backtest_pada_jendela": len(trades),
              "perbandingan_fill": fill,
              "metrik_backtest_jendela": metrik(trades, equity, None) if len(equity) > 1 else None}

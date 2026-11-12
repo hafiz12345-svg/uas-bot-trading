@@ -67,6 +67,18 @@ jual = [o for o in orders if o["sisi"] == "SELL"]
 untung = [o["pnl"] for o in jual if o["pnl"] > 0]
 rugi = [o["pnl"] for o in jual if o["pnl"] <= 0]
 
+# ---------- biaya & laba kotor per trade tertutup (BUY lalu SELL pada pair yang sama) ----------
+buka, fee_tutup, ss_tutup, kotor_tutup = {}, 0.0, 0.0, 0.0
+for o in orders:
+    mid = (o["best_bid"] + o["best_ask"]) / 2
+    if o["sisi"] == "BUY":
+        buka[o["pair"]] = {"mid": mid, "fee": o["fee"], "ss": (o["harga_fill"] - mid) * o["qty"]}
+    elif o["pair"] in buka:
+        b_ = buka.pop(o["pair"])
+        fee_tutup += b_["fee"] + o["fee"]
+        ss_tutup += b_["ss"] + (mid - o["harga_fill"]) * o["qty"]
+        kotor_tutup += o["qty"] * (mid - b_["mid"])
+
 # ---------- log per panggilan: error, skip, sinyal, kill switch, idempotency ----------
 errors, skip, ditolak, sinyal_count, log_sinyal = [], {}, {}, {}, []
 kill_switch = locked = sudah_diproses = 0
@@ -114,9 +126,13 @@ hasil = {
     "jumlah_order": len(orders),
     "trade_tertutup": len(jual),
     "win_ratio_pct": round(100 * len(untung) / len(jual), 1) if jual else None,
+    "profit_factor": round(sum(untung) / -sum(rugi), 2) if rugi and sum(rugi) < 0 else None,
     "rata2_untung": round(statistics.mean(untung), 2) if untung else None,
     "rata2_rugi": round(statistics.mean(rugi), 2) if rugi else None,
     "total_fee": round(sum(o["fee"] for o in orders), 2),
+    "biaya_trade_tertutup": {"fee": round(fee_tutup, 2), "spread_slippage": round(ss_tutup, 2),
+                             "laba_kotor_sebelum_biaya": round(kotor_tutup, 2)},
+    "porsi_biaya_pct": round((fee_tutup + ss_tutup) / kotor_tutup * 100, 2) if kotor_tutup > 0 else None,
     "selisih_fill_vs_sinyal_rata2_pct": round(statistics.mean(o["selisih_pct"] for o in orders), 4) if orders else None,
     "error_total": len(errors),
     "alasan_skip": skip,
