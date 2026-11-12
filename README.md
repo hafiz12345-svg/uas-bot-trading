@@ -1,80 +1,56 @@
 # UAS Algoritma Trading: Bot Dry Run Indodax
 
-Nama: Hafiz Alfarisi | NIM: 25110200002 | Kelas: Trad1
-Repositori: https://github.com/hafiz12345-svg/uas-bot-trading
-Bot (endpoint terlindungi): https://uas-bot-trading.vercel.app/api/tick
+Hafiz Alfarisi, NIM 25110200002, Kelas Trad1
+Repo: https://github.com/hafiz12345-svg/uas-bot-trading
+Dashboard: https://uas-bot-trading.vercel.app
+
+Bot ini **dry run**: tidak memakai uang asli dan tidak mengirim order ke Indodax.
+Semua order dan fill disimulasikan dari order book publik Indodax.
 
 ## Catatan waktu (jujur)
-Saya baru mulai mengerjakan UAS ini pada Senin 9 November 2026 karna saya punya kendala di laptopnya rusak dan sudah mencoba berusaha buat minjem, setelah freeze date di soal (Rabu 4 November 2026, 12.00 WIB). Saya sudah menghubungi dosen lewat WhatsApp
-- Bot ter-deploy di Vercel dan dipanggil terjadwal sejak Selasa 10 November 2026 sekitar pukul 15.20 WIB (versi 1: hanya mencatat sinyal).
-- Versi 2 (eksekusi simulasi dan risk management) aktif sekitar pukul 15.45 WIB hari yang sama.
-- Commit freeze adalah commit 0f1b628. Hash dan jamnya dicatat di bagian "Bukti freeze".
-- Forward test berjalan dari commit freeze sampai pengumpulan, jadi kurang dari 10 hari (sekitar 4 hari). Tidak ada tanggal commit yang diubah dan tidak ada riwayat yang ditulis ulang.
+
+Saya mulai mengerjakan terlambat (9 Nov 2026). Dosen mengizinkan forward test
+dengan waktu yang tersedia. Bot dibekukan (freeze) pada commit `0f1b628`,
+10 Nov 2026 16.11 WIB. Forward test berjalan sejak freeze sampai pengumpulan,
+jadi sampelnya pendek (beberapa hari). Tidak ada commit yang ditanggali ulang
+dan riwayat git tidak ditulis ulang.
 
 ## Bukti freeze
-- Hash commit freeze: 0f1b628
-- Waktu commit freeze: 10 November 2026, 16.11 WIB
 
-## Strategi (breakout Donchian, long-only)
-- Timeframe 1 jam. Sinyal hanya dihitung dari candle yang sudah tertutup.
-- BUY: close candle terakhir lebih tinggi dari close tertinggi 20 candle sebelumnya, dan belum memegang posisi pada pasangan itu.
-- SELL: close candle terakhir lebih rendah dari close terendah 10 candle sebelumnya, dan sedang memegang posisi pada pasangan itu.
-- Tanpa short, margin, atau leverage.
-- Fungsi sinyal ada di `signal_strategy.py` dan dipakai bersama oleh backtest dan bot.
+Commit `0f1b628` berisi `signal_strategy.py`, `api/tick.py`, parameter, dan
+universe. Setelah commit itu tidak ada perubahan aturan, parameter, atau
+universe (lihat "Log perubahan setelah freeze").
 
-### Hubungan dengan strategi UTS
-Strategi UTS saya adalah Donchian Breakout dengan filter tren SMA, long-only, pada saham Kompas100 (98 saham, data harian). Aturannya: masuk bila close menembus high tertinggi 55 hari dan close di atas SMA 150, keluar bila close menembus low terendah 30 hari. Parameter itu dipilih dari data in-sample UTS (CAGR backtest 32%, max drawdown 47%, 283 trade).
-Untuk UAS, inti breakout Donchian dan sifat long-only dipertahankan. Perubahan untuk kripto:
-- Timeframe harian diganti 1 jam, karena kripto diperdagangkan 24 jam dan forward test hanya beberapa hari.
-- Jendela masuk 20 candle dan keluar 10 candle (UTS: 55 dan 30). Jendela dipendekkan agar ada sinyal dalam periode forward test yang singkat. Angka ini dipilih sebelum backtest kripto dijalankan, bukan dari optimasi.
-- Filter SMA 150 dihapus demi kesederhanaan dan agar fungsi sinyal bisa dipakai identik oleh backtest dan bot. Ini penyederhanaan yang saya sadari dan bisa melemahkan strategi di pasar sideways.
-- Biaya, spread, dan eksekusi memakai order book Indodax, bukan fraksi harga BEI.
+## Strategi
+
+Donchian breakout, long-only, timeframe 1 jam.
+
+- **BUY** jika close candle terakhir yang sudah tutup lebih tinggi dari close
+  tertinggi 20 candle sebelumnya, dan belum ada posisi di pasangan itu.
+- **SELL** jika close candle terakhir yang sudah tutup lebih rendah dari close
+  terendah 10 candle sebelumnya, dan ada posisi.
+- Fungsi `signal()` ada di `signal_strategy.py` dan dipakai **sama persis** oleh
+  bot (`api/tick.py`) dan backtest (`backtest.py`). Tidak ada salinan logika.
+
+Hubungan dengan UTS: strategi breakout dari UTS (data harian saham) dibawa ke
+kripto 1 jam. Konsekuensinya dibahas di `refleksi.md`.
 
 ## Universe
-BTC/IDR, ETH/IDR, XRP/IDR.
 
-Kriteria pemilihan: pasangan IDR yang likuid, dinilai dari spread bid-ask dan nilai 10 level bid di order book. Pengukuran 10 November 2026: XRP/IDR spread 0,005% dan nilai 10 level bid Rp758.903.051; SOL/IDR spread 0,125% dan Rp763.292.720. XRP dipilih karena spread lebih rapat.
-
-Survivorship bias: ketiga pasangan punya data historis lengkap 3 tahun (26.281 bar per jam, 11 November 2023 sampai 10 November 2026).
-Keterbatasan: likuiditas diukur pada 10 November 2026, bukan pada awal periode backtest, karena saya belum punya snapshot order book historis. Ini dicatat sebagai keterbatasan.
+BTC/IDR, ETH/IDR, XRP/IDR. Ditetapkan sebelum freeze dan tidak diubah.
 
 ## Parameter (dibekukan)
-- Modal virtual Rp100.000.000
-- Maksimum 3 posisi terbuka, maksimum 30% equity per posisi
-- Fee taker 0,41555% untuk beli dan jual (lihat bagian fee)
-- Minimum order Rp25.000
-- Daily loss limit 3% dari equity awal hari. Batas hari memakai WIB (00.00 WIB). Bila terlampaui, bot berhenti membuka posisi baru sampai hari berikutnya.
-- Tidak membuka posisi bila spread bid-ask lebih dari 2%
 
-## Fee dan minimum order
-- API publik: https://indodax.com/api/pairs, `trade_fee_percent_taker` = 0,2%. Diakses 10 November 2026.
-- Aplikasi Indodax, menu Trading Fee, IDR Market (PRO), diakses 10 November 2026 pukul 15.49 WIB:
-  - Taker beli 0,20555% (service fee 0,2% + pajak 0% + bourse fee 0,00555%)
-  - Taker jual 0,41555% (service fee 0,2% + pajak 0,21% + bourse fee 0,00555%)
-- Halaman rincian biaya resmi di help.indodax.com: belum dibuka saat commit ini dibuat; angka di atas berasal dari aplikasi. Alamat halaman akan ditambahkan lewat commit terpisah dan dicatat di log perubahan.
-- Yang dipakai: 0,41555% (angka yang lebih mahal) untuk beli dan jual.
-- Minimum order: `trade_min_base_currency` di /api/pairs adalah Rp10.000, sedangkan rincian resmi menyebut order langsung di Pro minimal Rp25.000. Yang dipakai: Rp25.000 (yang lebih ketat).
-
-## Eksekusi dry run
-- Beli di ask dan jual di bid dari order book live. Order yang lebih besar dari level terbaik menghabiskan level berikutnya dan memakai harga rata-rata tertimbang.
-- Tidak ada fill di harga tengah (mid) atau close.
-- Posisi terbuka dinilai pada best bid (nilai jika dijual saat itu).
-- Setiap order dicatat: waktu, pasangan, sisi, kuantitas, best bid dan best ask, harga fill rata-rata, fee, selisih terhadap harga sinyal.
-
-## Risk management (ada di kode `api/tick.py`)
-- Batas jumlah posisi dan ukuran maksimum per posisi.
-- Daily loss limit dengan batas hari WIB.
-- Kill switch tanpa deploy ulang: variabel `KILL_SWITCH=1` di Vercel, atau key Redis `kill_switch` bernilai `1`. Pemakaiannya tercatat di log.
-- Retry terbatas (3 kali) untuk error API, timeout, dan respons kosong.
-- Idempotency: setiap candle hanya diproses sekali per pasangan (state di Redis), ditambah kunci `lock` agar dua panggilan bersamaan tidak membeli dua kali.
-- Validasi data: candle terakhir lebih tua dari 2x timeframe, candle hilang di jendela indikator, harga atau volume nol, order book kosong, spread lebih dari 2%. Alasan setiap SKIP dicatat di log.
-
-## Arsitektur
-GitHub Actions (menit ke-7 setiap jam, `.github/workflows/tick.yml`) memanggil endpoint di Vercel dengan header Authorization. State dan log disimpan di Upstash Redis dengan key: `calls`, `orders`, `equity`, `snapshots`, `state2`.
-Secret (`CRON_SECRET`, kredensial Redis) hanya ada di environment variable Vercel dan GitHub Secrets. Tidak ada file `.env` atau secret di repositori.
-
-## Log perubahan setelah freeze
-(belum ada. Setiap perbaikan bug yang tidak mengubah aturan akan dicatat di sini beserta tanggal dan alasan.)
+| Parameter | Nilai |
+|---|---|
+| Modal awal | Rp100.000.000 |
+| Fee taker | 0,41555% per sisi (BUY dan SELL) |
+| Order minimum | Rp25.000 |
+| Posisi maksimum bersamaan | 3 |
+| Ukuran maksimum per posisi | 30% dari equity |
+| Daily loss limit | 3% (batas hari WIB) |
+| Spread maksimum | 2% (di atas itu SKIP) |
+| Retry API | 3 kali |
 
 ## Sumber fee (diperiksa dua sumber)
 
@@ -89,3 +65,82 @@ Bot dan backtest memakai **0,41555% untuk BUY dan SELL**, yaitu angka yang
 lebih mahal (SELL taker). Dua sumber sama, jadi tidak ada selisih yang harus
 dicatat. Fee BUY sebenarnya lebih murah (0,20555%), sehingga biaya BUY di
 simulasi sedikit lebih tinggi dari kenyataan (konservatif).
+
+## Eksekusi (realistis)
+
+- Order diisi dengan menelusuri order book (bid/ask) sesuai ukuran order,
+  bukan di harga tengah atau harga close.
+- Fee taker dan order minimum diterapkan pada setiap fill.
+- Equity dinilai pada bid terbaik (harga yang bisa didapat kalau menjual).
+- Backtest mengisi order di open candle berikutnya, ditambah biaya per sisi
+  yang ditaksir dari snapshot order book **sebelum freeze** (median per pasangan,
+  notional Rp30 juta). File snapshot ikut dikumpulkan di repo.
+
+## Risk management (terbukti di log)
+
+- Batas jumlah posisi dan ukuran maksimum per posisi.
+- Daily loss limit dengan batas hari WIB.
+- Kill switch tanpa deploy ulang: variabel `KILL_SWITCH=1` di Vercel, atau key
+  Redis `kill_switch` bernilai `1`. Pemakaiannya tercatat di log.
+- Retry terbatas (3 kali) untuk error API, timeout, dan respons kosong.
+- Idempotency: setiap candle hanya diproses sekali per pasangan (state di
+  Redis), ditambah kunci `lock` agar dua panggilan bersamaan tidak membeli dua
+  kali. Terbukti di log dengan status `SUDAH_DIPROSES`.
+- Validasi data: candle terakhir lebih tua dari 2x timeframe, candle hilang di
+  jendela indikator, harga atau volume nol, order book kosong, spread lebih
+  dari 2%. Alasan setiap SKIP dicatat di log.
+
+## Arsitektur
+
+GitHub Actions (menit ke-7, ke-27, dan ke-47 setiap jam,
+`.github/workflows/tick.yml`) memanggil endpoint `/api/tick` di Vercel dengan
+header Authorization. State dan log disimpan di Upstash Redis dengan key:
+`calls`, `orders`, `equity`, `snapshots`, `state2`. Secret (`CRON_SECRET`,
+kredensial Redis) hanya ada di environment variable Vercel dan GitHub Secrets.
+Tidak ada file `.env` atau secret di repositori. Contoh variabel ada di
+`.env.example`.
+
+## Cara menjalankan ulang
+
+1. `hitung_ulang.py`: menarik log mentah dari Redis, menulis `hasil_forward.json`
+   dan folder `logs/` (calls, orders, equity harian, error, snapshot, log sinyal).
+   Butuh `KV_REST_API_URL` dan `KV_REST_API_TOKEN` (dari env atau diketik saat
+   diminta).
+2. `python backtest.py --unduh`: mengunduh candle 3 tahun dan menjalankan backtest
+   penuh. Hasil: `hasil_backtest.json`, `backtest_trades.csv`, `backtest_equity.csv`.
+3. `python backtest.py --bandingkan logs/log_sinyal.csv --orders logs/orders.json`:
+   membandingkan sinyal dan fill bot dengan backtest pada jendela waktu yang
+   sama. Hasil: `hasil_kecocokan.json`, `perbandingan_sinyal.csv`.
+4. Dashboard: `index.html` membaca tiga file JSON di atas.
+   `dashboard_offline.html` adalah versi yang datanya sudah tertanam, bisa
+   dibuka tanpa internet.
+
+## Dashboard
+
+Online: https://uas-bot-trading.vercel.app. Isinya: return, CAGR, max drawdown,
+profit factor, win rate, rata-rata untung dan rugi, jumlah trade, porsi biaya
+(fee + spread + slippage) terhadap laba kotor, buy and hold BTC/IDR, selisih
+backtest vs forward pada jendela yang sama, dan panel operasional (uptime,
+error API, pemakaian kill switch). Semua angka dibaca dari file JSON, tidak ada
+angka yang ditulis tangan di HTML.
+
+## Refleksi
+
+Lihat `refleksi.md`.
+
+## Log perubahan setelah freeze
+
+Freeze: commit `0f1b628`, 10 Nov 2026 16.11 WIB. Setelah itu **tidak ada
+perubahan pada aturan, parameter, atau universe**. `signal_strategy.py` dan
+`api/tick.py` tidak diubah. Yang berubah hanya hal berikut (tanggal tepatnya
+bisa dicek di riwayat commit):
+
+| Perubahan | Alasan | Mengubah aturan? |
+|---|---|---|
+| Menambah `index.html` (dashboard), `hasil_forward.json`, `hasil_backtest.json`, `hasil_kecocokan.json` | Dashboard dan hasil perhitungan, sesuai syarat ujian | Tidak |
+| Menambah `hitung_ulang.py` | Menghitung ulang metrik forward dari log mentah di Redis | Tidak |
+| Menambah `backtest.py` | Kode backtest versi awal tidak tersimpan, jadi ditulis ulang. Hasilnya dicek dengan angka lama (-97,37% vs -96,72%, selisih kecil). Versi ini yang resmi. Signalnya memakai `signal()` yang sama dengan bot | Tidak |
+| `.github/workflows/tick.yml`: menambah jadwal cadangan di menit ke-27 dan ke-47 (selain menit ke-7), 12 Nov 2026 | GitHub Actions sering terlambat 45-55 menit dan kadang melewatkan jam, sehingga uptime turun. Jadwal tambahan memperbesar peluang tiap jam terproses minimal satu kali | Tidak. Ini perubahan infrastruktur penjadwal. Bot tetap memproses tiap candle sekali (idempotency), jadi sinyal dan order tidak berubah |
+| Fee dicek ulang ke halaman resmi Indodax (lihat Sumber fee) | Syarat ujian: cek dua sumber | Tidak, angkanya sama |
+
+Pengujian kill switch dicatat di bagian bawah setelah dilakukan.
