@@ -75,3 +75,17 @@ Secret (`CRON_SECRET`, kredensial Redis) hanya ada di environment variable Verce
 
 ## Log perubahan setelah freeze
 (belum ada. Setiap perbaikan bug yang tidak mengubah aturan akan dicatat di sini beserta tanggal dan alasan.)
+
+## Sumber fee (diperiksa dua sumber)
+
+| Sumber | Fee taker | Diakses |
+|---|---|---|
+| `/api/pairs` Indodax | 0,41555% (`trade_fee_percent_taker`) | 10 Nov 2026 |
+| [Rincian Biaya Transaksi di INDODAX](https://help.indodax.com/hc/id/articles/4416646599705-Rincian-Biaya-Transaksi-di-INDODAX) | IDR Market (PRO): BUY taker 0,20555%, SELL taker 0,41555% | 12 Nov 2026 |
+
+Rincian SELL taker: service fee 0,20% + pajak 0,21% + CFX fee 0,00555% = 0,41555%.
+
+Bot dan backtest memakai **0,41555% untuk BUY dan SELL**, yaitu angka yang
+lebih mahal (SELL taker). Dua sumber sama, jadi tidak ada selisih yang harus
+dicatat. Fee BUY sebenarnya lebih murah (0,20555%), sehingga biaya BUY di
+simulasi sedikit lebih tinggi dari kenyataan (konservatif).
