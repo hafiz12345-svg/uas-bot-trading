@@ -1,0 +1,172 @@
+{
+ "jendela_candle_awal": 1794297600,
+ "jendela_candle_akhir": 1794456000,
+ "candle_dibandingkan": 117,
+ "sinyal_sama": 117,
+ "kecocokan_pct": 100.0,
+ "sinyal_berbeda": [],
+ "candle_tidak_diproses_bot": [
+  {
+   "pair": "BTCIDR",
+   "candle": 1794312000
+  },
+  {
+   "pair": "ETHIDR",
+   "candle": 1794312000
+  },
+  {
+   "pair": "XRPIDR",
+   "candle": 1794312000
+  },
+  {
+   "pair": "BTCIDR",
+   "candle": 1794373200
+  },
+  {
+   "pair": "ETHIDR",
+   "candle": 1794373200
+  },
+  {
+   "pair": "XRPIDR",
+   "candle": 1794373200
+  },
+  {
+   "pair": "BTCIDR",
+   "candle": 1794398400
+  },
+  {
+   "pair": "ETHIDR",
+   "candle": 1794398400
+  },
+  {
+   "pair": "XRPIDR",
+   "candle": 1794398400
+  },
+  {
+   "pair": "BTCIDR",
+   "candle": 1794423600
+  },
+  {
+   "pair": "ETHIDR",
+   "candle": 1794423600
+  },
+  {
+   "pair": "XRPIDR",
+   "candle": 1794423600
+  },
+  {
+   "pair": "BTCIDR",
+   "candle": 1794427200
+  },
+  {
+   "pair": "ETHIDR",
+   "candle": 1794427200
+  },
+  {
+   "pair": "XRPIDR",
+   "candle": 1794427200
+  },
+  {
+   "pair": "BTCIDR",
+   "candle": 1794438000
+  },
+  {
+   "pair": "ETHIDR",
+   "candle": 1794438000
+  },
+  {
+   "pair": "XRPIDR",
+   "candle": 1794438000
+  }
+ ],
+ "trade_backtest_pada_jendela": 3,
+ "perbandingan_fill": [
+  {
+   "pair": "BTCIDR",
+   "sisi": "BUY",
+   "waktu_bot_utc": "2026-11-11T11:51:50.925887+00:00",
+   "harga_fill_bot": 1342986774.2599773,
+   "harga_fill_backtest": 1343973847.1968331,
+   "open_candle_berikutnya": 1343405000.0,
+   "selisih_total_pct": -0.0734,
+   "komponen_keterlambatan_jadwal_pct": -0.1243,
+   "komponen_spread_slippage_bot_pct": 0.0933,
+   "komponen_spread_slippage_backtest_pct": 0.0423
+  },
+  {
+   "pair": "ETHIDR",
+   "sisi": "BUY",
+   "waktu_bot_utc": "2026-11-11T16:53:27.477871+00:00",
+   "harga_fill_bot": 37711000.0,
+   "harga_fill_backtest": 37699227.02454992,
+   "open_candle_berikutnya": 37679000.0,
+   "selisih_total_pct": 0.0312,
+   "komponen_keterlambatan_jadwal_pct": 0.0703,
+   "komponen_spread_slippage_bot_pct": 0.0146,
+   "komponen_spread_slippage_backtest_pct": 0.0537
+  },
+  {
+   "pair": "XRPIDR",
+   "sisi": "BUY",
+   "waktu_bot_utc": "2026-11-11T16:53:27.477871+00:00",
+   "harga_fill_bot": 19390.0,
+   "harga_fill_backtest": 19478.975956173275,
+   "open_candle_berikutnya": 19477.0,
+   "selisih_total_pct": -0.4568,
+   "komponen_keterlambatan_jadwal_pct": -0.4544,
+   "komponen_spread_slippage_bot_pct": 0.0077,
+   "komponen_spread_slippage_backtest_pct": 0.0101
+  },
+  {
+   "pair": "XRPIDR",
+   "sisi": "SELL",
+   "waktu_bot_utc": "2026-11-11T23:44:58.227703+00:00",
+   "harga_fill_bot": 19048.0,
+   "harga_fill_backtest": 19162.50210446679,
+   "open_candle_berikutnya": 19174.0,
+   "selisih_total_pct": -0.5975,
+   "komponen_keterlambatan_jadwal_pct": -0.618,
+   "komponen_spread_slippage_bot_pct": 0.0394,
+   "komponen_spread_slippage_backtest_pct": 0.06
+  },
+  {
+   "pair": "BTCIDR",
+   "sisi": "SELL",
+   "waktu_bot_utc": "2026-11-12T02:10:42.101385+00:00",
+   "harga_fill_bot": 1338756000.0,
+   "harga_fill_backtest": 1337693222.6643662,
+   "open_candle_berikutnya": 1338381000.0,
+   "selisih_total_pct": 0.0794,
+   "komponen_keterlambatan_jadwal_pct": 0.0281,
+   "komponen_spread_slippage_bot_pct": 0.0,
+   "komponen_spread_slippage_backtest_pct": 0.0514
+  },
+  {
+   "pair": "ETHIDR",
+   "sisi": "SELL",
+   "waktu_bot_utc": "2026-11-12T02:10:42.101385+00:00",
+   "harga_fill_bot": 37318000.0,
+   "harga_fill_backtest": 37201226.22158094,
+   "open_candle_berikutnya": 37223000.0,
+   "selisih_total_pct": 0.3139,
+   "komponen_keterlambatan_jadwal_pct": 0.2566,
+   "komponen_spread_slippage_bot_pct": 0.0013,
+   "komponen_spread_slippage_backtest_pct": 0.0585
+  }
+ ],
+ "metrik_backtest_jendela": {
+  "periode": "10-11-2026 s/d 12-11-2026 (0,0 tahun)",
+  "return_pct": -1.76,
+  "cagr_pct": null,
+  "max_drawdown_pct": -1.76,
+  "jumlah_trade": 3,
+  "win_ratio_pct": 0.0,
+  "profit_factor": 0.0,
+  "rata2_untung": null,
+  "rata2_rugi": -586087.75,
+  "total_fee": 739919.27,
+  "total_spread_slippage": 81803.6,
+  "laba_kotor_sebelum_biaya": -936540.38,
+  "porsi_biaya_pct": null
+ }
+}
