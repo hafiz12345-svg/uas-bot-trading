@@ -1,0 +1,6661 @@
+[
+ {
+  "waktu_utc": "2026-11-10T08:21:06.479843+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1350853000.0,
+    "ask": 1351540000.0,
+    "spread_pct": 0.0508,
+    "status": "OK",
+    "candle": 1794294000,
+    "close": 1352104000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 38216000.0,
+    "ask": 38225000.0,
+    "spread_pct": 0.0235,
+    "status": "OK",
+    "candle": 1794294000,
+    "close": 38287000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19712.0,
+    "ask": 19716.0,
+    "spread_pct": 0.0203,
+    "status": "OK",
+    "candle": 1794294000,
+    "close": 19819.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": []
+ },
+ {
+  "waktu_utc": "2026-11-10T08:43:49.175855+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1347025000.0,
+    "ask": 1348206000.0,
+    "spread_pct": 0.0876,
+    "status": "OK",
+    "candle": 1794294000,
+    "close": 1352104000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 38167000.0,
+    "ask": 38208000.0,
+    "spread_pct": 0.1073,
+    "status": "OK",
+    "candle": 1794294000,
+    "close": 38287000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19651.0,
+    "ask": 19652.0,
+    "spread_pct": 0.0051,
+    "status": "OK",
+    "candle": 1794294000,
+    "close": 19819.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T08:58:16.536068+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1349796000.0,
+    "ask": 1351184000.0,
+    "spread_pct": 0.1027,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794294000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 38221000.0,
+    "ask": 38222000.0,
+    "spread_pct": 0.0026,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794294000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19651.0,
+    "ask": 19652.0,
+    "spread_pct": 0.0051,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794294000
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T09:51:51.990437+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1345166000.0,
+    "ask": 1346017000.0,
+    "spread_pct": 0.0632,
+    "status": "OK",
+    "candle": 1794297600,
+    "close": 1351502000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37936000.0,
+    "ask": 37985000.0,
+    "spread_pct": 0.129,
+    "status": "OK",
+    "candle": 1794297600,
+    "close": 38221000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19665.0,
+    "ask": 19683.0,
+    "spread_pct": 0.0914,
+    "status": "OK",
+    "candle": 1794297600,
+    "close": 19652.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T10:50:22.412035+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1339796000.0,
+    "ask": 1340000000.0,
+    "spread_pct": 0.0152,
+    "status": "OK",
+    "candle": 1794301200,
+    "close": 1345666000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37744000.0,
+    "ask": 37745000.0,
+    "spread_pct": 0.0026,
+    "status": "OK",
+    "candle": 1794301200,
+    "close": 37984000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19471.0,
+    "ask": 19498.0,
+    "spread_pct": 0.1385,
+    "status": "OK",
+    "candle": 1794301200,
+    "close": 19670.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T11:47:49.573609+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1340950000.0,
+    "ask": 1340951000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794304800,
+    "close": 1339751000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37776000.0,
+    "ask": 37817000.0,
+    "spread_pct": 0.1084,
+    "status": "OK",
+    "candle": 1794304800,
+    "close": 37745000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19497.0,
+    "ask": 19513.0,
+    "spread_pct": 0.082,
+    "status": "OK",
+    "candle": 1794304800,
+    "close": 19500.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T12:55:13.552596+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1339462000.0,
+    "ask": 1339463000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794308400,
+    "close": 1342416000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37741000.0,
+    "ask": 37763000.0,
+    "spread_pct": 0.0583,
+    "status": "OK",
+    "candle": 1794308400,
+    "close": 37819000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19427.0,
+    "ask": 19441.0,
+    "spread_pct": 0.072,
+    "status": "OK",
+    "candle": 1794308400,
+    "close": 19482.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T14:06:17.111296+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1334999000.0,
+    "ask": 1335000000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794315600,
+    "close": 1332854000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37399000.0,
+    "ask": 37422000.0,
+    "spread_pct": 0.0615,
+    "status": "OK",
+    "candle": 1794315600,
+    "close": 37354000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19275.0,
+    "ask": 19304.0,
+    "spread_pct": 0.1502,
+    "status": "OK",
+    "candle": 1794315600,
+    "close": 19241.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T14:56:54.891548+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1339583000.0,
+    "ask": 1341395000.0,
+    "spread_pct": 0.1351,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794315600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37534000.0,
+    "ask": 37620000.0,
+    "spread_pct": 0.2286,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794315600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19180.0,
+    "ask": 19213.0,
+    "spread_pct": 0.1718,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794315600
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T15:43:30.891466+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1323034000.0,
+    "ask": 1323534000.0,
+    "spread_pct": 0.0378,
+    "status": "OK",
+    "candle": 1794319200,
+    "close": 1342420000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36481000.0,
+    "ask": 36482000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794319200,
+    "close": 37616000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18756.0,
+    "ask": 18770.0,
+    "spread_pct": 0.0746,
+    "status": "OK",
+    "candle": 1794319200,
+    "close": 19201.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T16:47:09.072996+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1320501000.0,
+    "ask": 1320864000.0,
+    "spread_pct": 0.0275,
+    "status": "OK",
+    "candle": 1794322800,
+    "close": 1325446000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36565000.0,
+    "ask": 36566000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794322800,
+    "close": 36624000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18893.0,
+    "ask": 18895.0,
+    "spread_pct": 0.0106,
+    "status": "OK",
+    "candle": 1794322800,
+    "close": 18867.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T17:43:46.470872+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1319806000.0,
+    "ask": 1319807000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794326400,
+    "close": 1318456000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36589000.0,
+    "ask": 36603000.0,
+    "spread_pct": 0.0382,
+    "status": "OK",
+    "candle": 1794326400,
+    "close": 36500000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18993.0,
+    "ask": 18994.0,
+    "spread_pct": 0.0053,
+    "status": "OK",
+    "candle": 1794326400,
+    "close": 18884.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T18:43:51.875125+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1330921000.0,
+    "ask": 1331543000.0,
+    "spread_pct": 0.0467,
+    "status": "OK",
+    "candle": 1794330000,
+    "close": 1323953000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37000000.0,
+    "ask": 37041000.0,
+    "spread_pct": 0.1107,
+    "status": "OK",
+    "candle": 1794330000,
+    "close": 36768000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19356.0,
+    "ask": 19391.0,
+    "spread_pct": 0.1805,
+    "status": "OK",
+    "candle": 1794330000,
+    "close": 19065.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T19:48:37.513420+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1328367000.0,
+    "ask": 1328631000.0,
+    "spread_pct": 0.0199,
+    "status": "OK",
+    "candle": 1794333600,
+    "close": 1330923000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36971000.0,
+    "ask": 36972000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794333600,
+    "close": 37054000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19295.0,
+    "ask": 19323.0,
+    "spread_pct": 0.1449,
+    "status": "OK",
+    "candle": 1794333600,
+    "close": 19400.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T20:40:36.009147+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1333147000.0,
+    "ask": 1333571000.0,
+    "spread_pct": 0.0318,
+    "status": "OK",
+    "candle": 1794337200,
+    "close": 1330159000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37127000.0,
+    "ask": 37135000.0,
+    "spread_pct": 0.0215,
+    "status": "OK",
+    "candle": 1794337200,
+    "close": 37048000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19166.0,
+    "ask": 19193.0,
+    "spread_pct": 0.1407,
+    "status": "OK",
+    "candle": 1794337200,
+    "close": 19282.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T21:37:19.289346+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1336900000.0,
+    "ask": 1337208000.0,
+    "spread_pct": 0.023,
+    "status": "OK",
+    "candle": 1794340800,
+    "close": 1334000000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37236000.0,
+    "ask": 37273000.0,
+    "spread_pct": 0.0993,
+    "status": "OK",
+    "candle": 1794340800,
+    "close": 37229000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19167.0,
+    "ask": 19180.0,
+    "spread_pct": 0.0678,
+    "status": "OK",
+    "candle": 1794340800,
+    "close": 19171.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T22:37:25.938990+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1330627000.0,
+    "ask": 1332142000.0,
+    "spread_pct": 0.1137,
+    "status": "OK",
+    "candle": 1794344400,
+    "close": 1334725000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37064000.0,
+    "ask": 37065000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794344400,
+    "close": 37201000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19065.0,
+    "ask": 19089.0,
+    "spread_pct": 0.1257,
+    "status": "OK",
+    "candle": 1794344400,
+    "close": 19166.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-10T23:31:16.284801+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1331653000.0,
+    "ask": 1331926000.0,
+    "spread_pct": 0.0205,
+    "status": "OK",
+    "candle": 1794348000,
+    "close": 1332654000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37026000.0,
+    "ask": 37034000.0,
+    "spread_pct": 0.0216,
+    "status": "OK",
+    "candle": 1794348000,
+    "close": 37005000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19062.0,
+    "ask": 19079.0,
+    "spread_pct": 0.0891,
+    "status": "OK",
+    "candle": 1794348000,
+    "close": 19114.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T00:54:12.945028+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1329458000.0,
+    "ask": 1329792000.0,
+    "spread_pct": 0.0251,
+    "status": "OK",
+    "candle": 1794351600,
+    "close": 1332654000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37079000.0,
+    "ask": 37081000.0,
+    "spread_pct": 0.0054,
+    "status": "OK",
+    "candle": 1794351600,
+    "close": 37100000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19001.0,
+    "ask": 19016.0,
+    "spread_pct": 0.0789,
+    "status": "OK",
+    "candle": 1794351600,
+    "close": 19071.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T01:56:51.719601+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1331956000.0,
+    "ask": 1331957000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794355200,
+    "close": 1329683000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37149000.0,
+    "ask": 37150000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794355200,
+    "close": 37080000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19012.0,
+    "ask": 19024.0,
+    "spread_pct": 0.0631,
+    "status": "OK",
+    "candle": 1794355200,
+    "close": 19012.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T02:45:11.705214+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1332905000.0,
+    "ask": 1333772000.0,
+    "spread_pct": 0.065,
+    "status": "OK",
+    "candle": 1794358800,
+    "close": 1331956000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37239000.0,
+    "ask": 37240000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794358800,
+    "close": 37150000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19157.0,
+    "ask": 19178.0,
+    "spread_pct": 0.1095,
+    "status": "OK",
+    "candle": 1794358800,
+    "close": 19024.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T03:50:20.306562+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1334100000.0,
+    "ask": 1334914000.0,
+    "spread_pct": 0.061,
+    "status": "OK",
+    "candle": 1794362400,
+    "close": 1332669000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37346000.0,
+    "ask": 37347000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794362400,
+    "close": 37255000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19188.0,
+    "ask": 19189.0,
+    "spread_pct": 0.0052,
+    "status": "OK",
+    "candle": 1794362400,
+    "close": 19146.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T04:54:03.882705+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1334676000.0,
+    "ask": 1335487000.0,
+    "spread_pct": 0.0607,
+    "status": "OK",
+    "candle": 1794366000,
+    "close": 1334113000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37392000.0,
+    "ask": 37395000.0,
+    "spread_pct": 0.008,
+    "status": "OK",
+    "candle": 1794366000,
+    "close": 37280000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19089.0,
+    "ask": 19111.0,
+    "spread_pct": 0.1151,
+    "status": "OK",
+    "candle": 1794366000,
+    "close": 19140.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T05:54:13.521359+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1339730000.0,
+    "ask": 1339897000.0,
+    "spread_pct": 0.0125,
+    "status": "OK",
+    "candle": 1794369600,
+    "close": 1335127000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37503000.0,
+    "ask": 37552000.0,
+    "spread_pct": 0.1305,
+    "status": "OK",
+    "candle": 1794369600,
+    "close": 37362000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19229.0,
+    "ask": 19239.0,
+    "spread_pct": 0.052,
+    "status": "OK",
+    "candle": 1794369600,
+    "close": 19087.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T07:02:42.088074+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1334185000.0,
+    "ask": 1334186000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794376800,
+    "close": 1334566000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37212000.0,
+    "ask": 37250000.0,
+    "spread_pct": 0.102,
+    "status": "OK",
+    "candle": 1794376800,
+    "close": 37214000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19112.0,
+    "ask": 19151.0,
+    "spread_pct": 0.2036,
+    "status": "OK",
+    "candle": 1794376800,
+    "close": 19158.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T08:17:05.056926+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341090000.0,
+    "ask": 1341428000.0,
+    "spread_pct": 0.0252,
+    "status": "OK",
+    "candle": 1794380400,
+    "close": 1340768000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37398000.0,
+    "ask": 37430000.0,
+    "spread_pct": 0.0855,
+    "status": "OK",
+    "candle": 1794380400,
+    "close": 37417000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19184.0,
+    "ask": 19202.0,
+    "spread_pct": 0.0937,
+    "status": "OK",
+    "candle": 1794380400,
+    "close": 19182.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T09:55:17.781684+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1336737000.0,
+    "ask": 1336803000.0,
+    "spread_pct": 0.0049,
+    "status": "OK",
+    "candle": 1794384000,
+    "close": 1335058000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37242000.0,
+    "ask": 37259000.0,
+    "spread_pct": 0.0456,
+    "status": "OK",
+    "candle": 1794384000,
+    "close": 37293000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19212.0,
+    "ask": 19224.0,
+    "spread_pct": 0.0624,
+    "status": "OK",
+    "candle": 1794384000,
+    "close": 19140.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T10:56:17.489524+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1343282000.0,
+    "ask": 1343407000.0,
+    "spread_pct": 0.0093,
+    "status": "OK",
+    "candle": 1794387600,
+    "close": 1337514000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37344000.0,
+    "ask": 37400000.0,
+    "spread_pct": 0.1497,
+    "status": "OK",
+    "candle": 1794387600,
+    "close": 37269000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19296.0,
+    "ask": 19305.0,
+    "spread_pct": 0.0466,
+    "status": "OK",
+    "candle": 1794387600,
+    "close": 19212.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T11:51:50.925887+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341226000.0,
+    "ask": 1342244000.0,
+    "spread_pct": 0.0758,
+    "status": "OK",
+    "candle": 1794391200,
+    "close": 1343284000.0,
+    "sinyal": "BUY",
+    "aksi": "BUY",
+    "order": {
+     "waktu_utc": "2026-11-11T11:51:50.925887+00:00",
+     "pair": "BTCIDR",
+     "sisi": "BUY",
+     "qty": 0.02224582,
+     "best_bid": 1341226000.0,
+     "best_ask": 1342244000.0,
+     "harga_fill": 1342986774.2599773,
+     "notional": 29875842.042568088,
+     "fee": 124149.0616078917,
+     "harga_sinyal": 1343284000.0,
+     "selisih_pct": -0.022126798206682972,
+     "level_dipakai": 2
+    }
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37319000.0,
+    "ask": 37320000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794391200,
+    "close": 37379000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19208.0,
+    "ask": 19225.0,
+    "spread_pct": 0.0884,
+    "status": "OK",
+    "candle": 1794391200,
+    "close": 19248.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100000000,
+  "cash": 100000000,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T12:58:46.353698+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1340272000.0,
+    "ask": 1340666000.0,
+    "spread_pct": 0.0294,
+    "status": "OK",
+    "candle": 1794394800,
+    "close": 1341992000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37238000.0,
+    "ask": 37247000.0,
+    "spread_pct": 0.0242,
+    "status": "OK",
+    "candle": 1794394800,
+    "close": 37319000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19178.0,
+    "ask": 19193.0,
+    "spread_pct": 0.0782,
+    "status": "OK",
+    "candle": 1794394800,
+    "close": 19191.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 99815458.55886401,
+  "cash": 70000008.89582402,
+  "posisi": [
+   "BTCIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T14:13:30.798903+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1335855000.0,
+    "ask": 1336021000.0,
+    "spread_pct": 0.0124,
+    "status": "OK",
+    "candle": 1794402000,
+    "close": 1337854000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37122000.0,
+    "ask": 37146000.0,
+    "spread_pct": 0.0646,
+    "status": "OK",
+    "candle": 1794402000,
+    "close": 37250000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19196.0,
+    "ask": 19245.0,
+    "spread_pct": 0.2546,
+    "status": "OK",
+    "candle": 1794402000,
+    "close": 19234.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 99717198.77192402,
+  "cash": 70000008.89582402,
+  "posisi": [
+   "BTCIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T15:47:30.078103+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1340399000.0,
+    "ask": 1342006000.0,
+    "spread_pct": 0.1197,
+    "status": "OK",
+    "candle": 1794405600,
+    "close": 1335218000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37555000.0,
+    "ask": 37594000.0,
+    "spread_pct": 0.1037,
+    "status": "OK",
+    "candle": 1794405600,
+    "close": 37295000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19406.0,
+    "ask": 19439.0,
+    "spread_pct": 0.1698,
+    "status": "OK",
+    "candle": 1794405600,
+    "close": 19188.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 99818283.77800402,
+  "cash": 70000008.89582402,
+  "posisi": [
+   "BTCIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T16:53:27.477871+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1348000000.0,
+    "ask": 1348002000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794409200,
+    "close": 1343514000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37700000.0,
+    "ask": 37711000.0,
+    "spread_pct": 0.0292,
+    "status": "OK",
+    "candle": 1794409200,
+    "close": 37645000.0,
+    "sinyal": "BUY",
+    "aksi": "BUY",
+    "order": {
+     "waktu_utc": "2026-11-11T16:53:27.477871+00:00",
+     "pair": "ETHIDR",
+     "sisi": "BUY",
+     "qty": 0.7921317,
+     "best_bid": 37700000.0,
+     "best_ask": 37711000.0,
+     "harga_fill": 37711000.0,
+     "notional": 29872078.5387,
+     "fee": 124133.42236756785,
+     "harga_sinyal": 37645000.0,
+     "selisih_pct": 0.1753220879266835,
+     "level_dipakai": 1
+    }
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19387.0,
+    "ask": 19390.0,
+    "spread_pct": 0.0155,
+    "status": "OK",
+    "candle": 1794409200,
+    "close": 19477.0,
+    "sinyal": "BUY",
+    "aksi": "BUY",
+    "order": {
+     "waktu_utc": "2026-11-11T16:53:27.477871+00:00",
+     "pair": "XRPIDR",
+     "sisi": "BUY",
+     "qty": 1540.59199861,
+     "best_bid": 19387.0,
+     "best_ask": 19390.0,
+     "harga_fill": 19390.0,
+     "notional": 29872078.8530479,
+     "fee": 124133.42367384056,
+     "harga_sinyal": 19477.0,
+     "selisih_pct": -0.4466807003131899,
+     "level_dipakai": 1
+    }
+   }
+  ],
+  "error": [],
+  "equity": 99987374.25582401,
+  "cash": 70000008.89582402,
+  "posisi": [
+   "BTCIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T17:51:40.418498+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1350979000.0,
+    "ask": 1352833000.0,
+    "spread_pct": 0.137,
+    "status": "OK",
+    "candle": 1794412800,
+    "close": 1348000000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37923000.0,
+    "ask": 37985000.0,
+    "spread_pct": 0.1632,
+    "status": "OK",
+    "candle": 1794412800,
+    "close": 37710000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19413.0,
+    "ask": 19429.0,
+    "spread_pct": 0.0824,
+    "status": "OK",
+    "candle": 1794412800,
+    "close": 19429.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 100008743.24393064,
+  "cash": 10007584.6580347,
+  "posisi": [
+   "BTCIDR",
+   "ETHIDR",
+   "XRPIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T18:50:48.522507+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1352023000.0,
+    "ask": 1352100000.0,
+    "spread_pct": 0.0057,
+    "status": "OK",
+    "candle": 1794416400,
+    "close": 1352609000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37897000.0,
+    "ask": 37898000.0,
+    "spread_pct": 0.0026,
+    "status": "OK",
+    "candle": 1794416400,
+    "close": 37928000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19394.0,
+    "ask": 19420.0,
+    "spread_pct": 0.1339,
+    "status": "OK",
+    "candle": 1794416400,
+    "close": 19413.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 99982101.20783703,
+  "cash": 10007584.6580347,
+  "posisi": [
+   "BTCIDR",
+   "ETHIDR",
+   "XRPIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T19:54:35.096990+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1350516000.0,
+    "ask": 1351298000.0,
+    "spread_pct": 0.0579,
+    "status": "OK",
+    "candle": 1794420000,
+    "close": 1351601000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37760000.0,
+    "ask": 37761000.0,
+    "spread_pct": 0.0026,
+    "status": "OK",
+    "candle": 1794420000,
+    "close": 37801000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19219.0,
+    "ask": 19240.0,
+    "spread_pct": 0.1091,
+    "status": "OK",
+    "candle": 1794420000,
+    "close": 19301.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 99570451.11444029,
+  "cash": 10007584.6580347,
+  "posisi": [
+   "BTCIDR",
+   "ETHIDR",
+   "XRPIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T22:46:44.188991+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1345000000.0,
+    "ask": 1345790000.0,
+    "spread_pct": 0.0587,
+    "status": "OK",
+    "candle": 1794430800,
+    "close": 1351584000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37375000.0,
+    "ask": 37390000.0,
+    "spread_pct": 0.0401,
+    "status": "OK",
+    "candle": 1794430800,
+    "close": 37650000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19141.0,
+    "ask": 19169.0,
+    "spread_pct": 0.1461,
+    "status": "OK",
+    "candle": 1794430800,
+    "close": 19277.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 99022606.29092872,
+  "cash": 10007584.6580347,
+  "posisi": [
+   "BTCIDR",
+   "ETHIDR",
+   "XRPIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-11T23:44:58.227703+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1340617000.0,
+    "ask": 1340859000.0,
+    "spread_pct": 0.018,
+    "status": "OK",
+    "candle": 1794434400,
+    "close": 1341343000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37269000.0,
+    "ask": 37270000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794434400,
+    "close": 37360000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19048.0,
+    "ask": 19063.0,
+    "spread_pct": 0.0787,
+    "status": "OK",
+    "candle": 1794434400,
+    "close": 19134.0,
+    "sinyal": "SELL",
+    "aksi": "SELL",
+    "order": {
+     "waktu_utc": "2026-11-11T23:44:58.227703+00:00",
+     "pair": "XRPIDR",
+     "sisi": "SELL",
+     "qty": 1540.59199861,
+     "best_bid": 19048.0,
+     "best_ask": 19063.0,
+     "harga_fill": 19048.0,
+     "notional": 29345196.38952328,
+     "fee": 121943.96359666399,
+     "harga_sinyal": 19134.0,
+     "selisih_pct": -0.44946169123027074,
+     "level_dipakai": 1,
+     "pnl": -772959.8507951275
+    }
+   }
+  ],
+  "error": [],
+  "equity": 98697861.84579799,
+  "cash": 10007584.6580347,
+  "posisi": [
+   "BTCIDR",
+   "ETHIDR",
+   "XRPIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T01:01:02.224879+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1344257000.0,
+    "ask": 1344500000.0,
+    "spread_pct": 0.0181,
+    "status": "OK",
+    "candle": 1794441600,
+    "close": 1344500000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37452000.0,
+    "ask": 37453000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794441600,
+    "close": 37459000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19209.0,
+    "ask": 19231.0,
+    "spread_pct": 0.1144,
+    "status": "OK",
+    "candle": 1794441600,
+    "close": 19218.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98801852.7681013,
+  "cash": 39230837.083961315,
+  "posisi": [
+   "BTCIDR",
+   "ETHIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T02:10:42.101385+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1338756000.0,
+    "ask": 1338757000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794445200,
+    "close": 1337994000.0,
+    "sinyal": "SELL",
+    "aksi": "SELL",
+    "order": {
+     "waktu_utc": "2026-11-12T02:10:42.101385+00:00",
+     "pair": "BTCIDR",
+     "sisi": "SELL",
+     "qty": 0.02224582,
+     "best_bid": 1338756000.0,
+     "best_ask": 1338757000.0,
+     "harga_fill": 1338756000.0,
+     "notional": 29781724.99992,
+     "fee": 123757.95823716756,
+     "harga_sinyal": 1337994000.0,
+     "selisih_pct": 0.056950928031067403,
+     "level_dipakai": 1,
+     "pnl": -342024.06249314547
+    }
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37318000.0,
+    "ask": 37319000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794445200,
+    "close": 37223000.0,
+    "sinyal": "SELL",
+    "aksi": "SELL",
+    "order": {
+     "waktu_utc": "2026-11-12T02:10:42.101385+00:00",
+     "pair": "ETHIDR",
+     "sisi": "SELL",
+     "qty": 0.7921317,
+     "best_bid": 37318000.0,
+     "best_ask": 37319000.0,
+     "harga_fill": 37318000.0,
+     "notional": 29560770.7806,
+     "fee": 122839.78297878332,
+     "harga_sinyal": 37223000.0,
+     "selisih_pct": 0.2552185476721382,
+     "level_dipakai": 1,
+     "pnl": -558280.9634463526
+    }
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19085.0,
+    "ask": 19116.0,
+    "spread_pct": 0.1622,
+    "status": "OK",
+    "candle": 1794445200,
+    "close": 19031.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98573332.86448132,
+  "cash": 39230837.083961315,
+  "posisi": [
+   "BTCIDR",
+   "ETHIDR"
+  ],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T03:50:46.781116+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341630000.0,
+    "ask": 1341631000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794448800,
+    "close": 1343651000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37350000.0,
+    "ask": 37366000.0,
+    "spread_pct": 0.0428,
+    "status": "OK",
+    "candle": 1794448800,
+    "close": 37439000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19022.0,
+    "ask": 19049.0,
+    "spread_pct": 0.1417,
+    "status": "OK",
+    "candle": 1794448800,
+    "close": 19108.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T04:55:15.857626+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341719000.0,
+    "ask": 1342002000.0,
+    "spread_pct": 0.0211,
+    "status": "OK",
+    "candle": 1794452400,
+    "close": 1341617000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37309000.0,
+    "ask": 37359000.0,
+    "spread_pct": 0.1338,
+    "status": "OK",
+    "candle": 1794452400,
+    "close": 37366000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19016.0,
+    "ask": 19038.0,
+    "spread_pct": 0.1156,
+    "status": "OK",
+    "candle": 1794452400,
+    "close": 19079.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T05:56:55.691899+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1339533000.0,
+    "ask": 1340808000.0,
+    "spread_pct": 0.0951,
+    "status": "OK",
+    "candle": 1794456000,
+    "close": 1341617000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37244000.0,
+    "ask": 37299000.0,
+    "spread_pct": 0.1475,
+    "status": "OK",
+    "candle": 1794456000,
+    "close": 37309000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18966.0,
+    "ask": 18967.0,
+    "spread_pct": 0.0053,
+    "status": "OK",
+    "candle": 1794456000,
+    "close": 19017.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T07:06:23.851513+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1340283000.0,
+    "ask": 1341614000.0,
+    "spread_pct": 0.0992,
+    "status": "OK",
+    "candle": 1794463200,
+    "close": 1338223000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37259000.0,
+    "ask": 37260000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794463200,
+    "close": 37216000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18991.0,
+    "ask": 18992.0,
+    "spread_pct": 0.0053,
+    "status": "OK",
+    "candle": 1794463200,
+    "close": 18934.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T08:21:25.784938+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341315000.0,
+    "ask": 1341617000.0,
+    "spread_pct": 0.0225,
+    "status": "OK",
+    "candle": 1794466800,
+    "close": 1340770000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37338000.0,
+    "ask": 37339000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794466800,
+    "close": 37339000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19021.0,
+    "ask": 19032.0,
+    "spread_pct": 0.0578,
+    "status": "OK",
+    "candle": 1794466800,
+    "close": 19020.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T08:32:08.580632+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341315000.0,
+    "ask": 1341316000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794466800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37325000.0,
+    "ask": 37330000.0,
+    "spread_pct": 0.0134,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794466800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18975.0,
+    "ask": 18994.0,
+    "spread_pct": 0.1,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794466800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T08:41:15.393719+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341315000.0,
+    "ask": 1341316000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794466800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37325000.0,
+    "ask": 37330000.0,
+    "spread_pct": 0.0134,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794466800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19017.0,
+    "ask": 19018.0,
+    "spread_pct": 0.0053,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794466800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T09:35:59.624321+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1338791000.0,
+    "ask": 1338792000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794470400,
+    "close": 1341314000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37292000.0,
+    "ask": 37335000.0,
+    "spread_pct": 0.1152,
+    "status": "OK",
+    "candle": 1794470400,
+    "close": 37330000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19107.0,
+    "ask": 19133.0,
+    "spread_pct": 0.1359,
+    "status": "OK",
+    "candle": 1794470400,
+    "close": 19034.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T09:55:26.599859+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1338745000.0,
+    "ask": 1339047000.0,
+    "spread_pct": 0.0226,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794470400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37306000.0,
+    "ask": 37309000.0,
+    "spread_pct": 0.008,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794470400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19160.0,
+    "ask": 19180.0,
+    "spread_pct": 0.1043,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794470400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T10:25:51.372592+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1339653000.0,
+    "ask": 1339654000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794474000,
+    "close": 1339688000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37388000.0,
+    "ask": 37389000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794474000,
+    "close": 37309000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19235.0,
+    "ask": 19245.0,
+    "spread_pct": 0.052,
+    "status": "OK",
+    "candle": 1794474000,
+    "close": 19171.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T10:40:52.168992+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1341437000.0,
+    "ask": 1341511000.0,
+    "spread_pct": 0.0055,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794474000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37355000.0,
+    "ask": 37394000.0,
+    "spread_pct": 0.1043,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794474000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19202.0,
+    "ask": 19203.0,
+    "spread_pct": 0.0052,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794474000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T10:56:56.536960+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1338909000.0,
+    "ask": 1340204000.0,
+    "spread_pct": 0.0966,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794474000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37338000.0,
+    "ask": 37340000.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794474000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19158.0,
+    "ask": 19159.0,
+    "spread_pct": 0.0052,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794474000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T11:26:15.205977+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1338910000.0,
+    "ask": 1338911000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794477600,
+    "close": 1340611000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37230000.0,
+    "ask": 37255000.0,
+    "spread_pct": 0.0671,
+    "status": "OK",
+    "candle": 1794477600,
+    "close": 37339000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19053.0,
+    "ask": 19056.0,
+    "spread_pct": 0.0157,
+    "status": "OK",
+    "candle": 1794477600,
+    "close": 19158.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T11:36:36.040428+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1333334000.0,
+    "ask": 1333828000.0,
+    "spread_pct": 0.037,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794477600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 37051000.0,
+    "ask": 37052000.0,
+    "spread_pct": 0.0027,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794477600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18909.0,
+    "ask": 18924.0,
+    "spread_pct": 0.0793,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794477600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T11:53:06.980778+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1330112000.0,
+    "ask": 1330113000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794477600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36752000.0,
+    "ask": 36806000.0,
+    "spread_pct": 0.1467,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794477600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18896.0,
+    "ask": 18914.0,
+    "spread_pct": 0.0952,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794477600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T12:23:18.706513+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1332763000.0,
+    "ask": 1332764000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794481200,
+    "close": 1330590000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36959000.0,
+    "ask": 36960000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794481200,
+    "close": 36867000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18900.0,
+    "ask": 18905.0,
+    "spread_pct": 0.0264,
+    "status": "OK",
+    "candle": 1794481200,
+    "close": 18931.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T12:38:46.720826+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1329942000.0,
+    "ask": 1329943000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794481200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36889000.0,
+    "ask": 36927000.0,
+    "spread_pct": 0.1029,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794481200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18925.0,
+    "ask": 18942.0,
+    "spread_pct": 0.0897,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794481200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T13:00:05.676986+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1329966000.0,
+    "ask": 1331371000.0,
+    "spread_pct": 0.1055,
+    "status": "OK",
+    "candle": 1794484800,
+    "close": 1330775000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36899000.0,
+    "ask": 36932000.0,
+    "spread_pct": 0.0894,
+    "status": "OK",
+    "candle": 1794484800,
+    "close": 36899000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18929.0,
+    "ask": 18937.0,
+    "spread_pct": 0.0422,
+    "status": "OK",
+    "candle": 1794484800,
+    "close": 18930.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T13:17:55.637268+00:00",
+  "hasil": [],
+  "error": [],
+  "kill_switch": true
+ },
+ {
+  "waktu_utc": "2026-11-12T13:42:27.977635+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1326186000.0,
+    "ask": 1326527000.0,
+    "spread_pct": 0.0257,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794484800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36761000.0,
+    "ask": 36779000.0,
+    "spread_pct": 0.0489,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794484800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18879.0,
+    "ask": 18913.0,
+    "spread_pct": 0.1798,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794484800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T13:55:29.094347+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1326498000.0,
+    "ask": 1326499000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794484800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36749000.0,
+    "ask": 36771000.0,
+    "spread_pct": 0.0598,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794484800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18896.0,
+    "ask": 18900.0,
+    "spread_pct": 0.0212,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794484800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T14:14:52.865615+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1322141000.0,
+    "ask": 1323544000.0,
+    "spread_pct": 0.106,
+    "status": "OK",
+    "candle": 1794488400,
+    "close": 1326500000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36694000.0,
+    "ask": 36753000.0,
+    "spread_pct": 0.1605,
+    "status": "OK",
+    "candle": 1794488400,
+    "close": 36755000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18792.0,
+    "ask": 18800.0,
+    "spread_pct": 0.0426,
+    "status": "OK",
+    "candle": 1794488400,
+    "close": 18878.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T15:20:00.952283+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306460000.0,
+    "ask": 1306462000.0,
+    "spread_pct": 0.0002,
+    "status": "OK",
+    "candle": 1794492000,
+    "close": 1308893000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36573000.0,
+    "ask": 36575000.0,
+    "spread_pct": 0.0055,
+    "status": "OK",
+    "candle": 1794492000,
+    "close": 36675000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18645.0,
+    "ask": 18661.0,
+    "spread_pct": 0.0857,
+    "status": "OK",
+    "candle": 1794492000,
+    "close": 18773.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T15:38:46.067542+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1303712000.0,
+    "ask": 1304006000.0,
+    "spread_pct": 0.0225,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794492000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36472000.0,
+    "ask": 36506000.0,
+    "spread_pct": 0.0931,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794492000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18623.0,
+    "ask": 18628.0,
+    "spread_pct": 0.0268,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794492000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T15:55:28.915052+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1305788000.0,
+    "ask": 1306170000.0,
+    "spread_pct": 0.0292,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794492000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36576000.0,
+    "ask": 36609000.0,
+    "spread_pct": 0.0901,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794492000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18705.0,
+    "ask": 18734.0,
+    "spread_pct": 0.1548,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794492000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T16:27:22.252088+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1311798000.0,
+    "ask": 1312240000.0,
+    "spread_pct": 0.0337,
+    "status": "OK",
+    "candle": 1794495600,
+    "close": 1307749000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36742000.0,
+    "ask": 36795000.0,
+    "spread_pct": 0.144,
+    "status": "OK",
+    "candle": 1794495600,
+    "close": 36647000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18725.0,
+    "ask": 18735.0,
+    "spread_pct": 0.0534,
+    "status": "OK",
+    "candle": 1794495600,
+    "close": 18769.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T16:41:41.750665+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1310512000.0,
+    "ask": 1310513000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794495600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36650000.0,
+    "ask": 36652000.0,
+    "spread_pct": 0.0055,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794495600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18656.0,
+    "ask": 18657.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794495600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T16:56:47.628654+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1313258000.0,
+    "ask": 1313626000.0,
+    "spread_pct": 0.028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794495600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36730000.0,
+    "ask": 36802000.0,
+    "spread_pct": 0.1956,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794495600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18723.0,
+    "ask": 18747.0,
+    "spread_pct": 0.128,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794495600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T17:33:57.251602+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1315522000.0,
+    "ask": 1315833000.0,
+    "spread_pct": 0.0236,
+    "status": "OK",
+    "candle": 1794499200,
+    "close": 1312255000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36846000.0,
+    "ask": 36861000.0,
+    "spread_pct": 0.0407,
+    "status": "OK",
+    "candle": 1794499200,
+    "close": 36708000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18761.0,
+    "ask": 18766.0,
+    "spread_pct": 0.0266,
+    "status": "OK",
+    "candle": 1794499200,
+    "close": 18750.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T17:49:24.061193+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1312000000.0,
+    "ask": 1312256000.0,
+    "spread_pct": 0.0195,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794499200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36813000.0,
+    "ask": 36838000.0,
+    "spread_pct": 0.0679,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794499200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18723.0,
+    "ask": 18724.0,
+    "spread_pct": 0.0053,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794499200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T18:12:45.644594+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1314145000.0,
+    "ask": 1314704000.0,
+    "spread_pct": 0.0425,
+    "status": "OK",
+    "candle": 1794502800,
+    "close": 1313407000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36894000.0,
+    "ask": 36905000.0,
+    "spread_pct": 0.0298,
+    "status": "OK",
+    "candle": 1794502800,
+    "close": 36911000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18801.0,
+    "ask": 18827.0,
+    "spread_pct": 0.1381,
+    "status": "OK",
+    "candle": 1794502800,
+    "close": 18803.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T18:31:48.442954+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1313710000.0,
+    "ask": 1313930000.0,
+    "spread_pct": 0.0167,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794502800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36884000.0,
+    "ask": 36894000.0,
+    "spread_pct": 0.0271,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794502800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18826.0,
+    "ask": 18858.0,
+    "spread_pct": 0.1697,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794502800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T18:49:58.816670+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1310000000.0,
+    "ask": 1310001000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794502800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36783000.0,
+    "ask": 36785000.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794502800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18716.0,
+    "ask": 18728.0,
+    "spread_pct": 0.0641,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794502800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T19:24:01.594425+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1308003000.0,
+    "ask": 1308915000.0,
+    "spread_pct": 0.0697,
+    "status": "OK",
+    "candle": 1794506400,
+    "close": 1310626000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36811000.0,
+    "ask": 36857000.0,
+    "spread_pct": 0.1248,
+    "status": "OK",
+    "candle": 1794506400,
+    "close": 36925000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18740.0,
+    "ask": 18755.0,
+    "spread_pct": 0.08,
+    "status": "OK",
+    "candle": 1794506400,
+    "close": 18806.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T19:37:59.772689+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1308002000.0,
+    "ask": 1308003000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794506400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36743000.0,
+    "ask": 36777000.0,
+    "spread_pct": 0.0924,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794506400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18739.0,
+    "ask": 18757.0,
+    "spread_pct": 0.096,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794506400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T19:50:55.983508+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306685000.0,
+    "ask": 1308306000.0,
+    "spread_pct": 0.1239,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794506400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36804000.0,
+    "ask": 36805000.0,
+    "spread_pct": 0.0027,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794506400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18828.0,
+    "ask": 18857.0,
+    "spread_pct": 0.1538,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794506400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T20:16:56.055571+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306701000.0,
+    "ask": 1307363000.0,
+    "spread_pct": 0.0506,
+    "status": "OK",
+    "candle": 1794510000,
+    "close": 1310708000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36845000.0,
+    "ask": 36896000.0,
+    "spread_pct": 0.1382,
+    "status": "OK",
+    "candle": 1794510000,
+    "close": 36821000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18836.0,
+    "ask": 18840.0,
+    "spread_pct": 0.0212,
+    "status": "OK",
+    "candle": 1794510000,
+    "close": 18876.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T20:29:39.574008+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306701000.0,
+    "ask": 1306702000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794510000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36858000.0,
+    "ask": 36909000.0,
+    "spread_pct": 0.1382,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794510000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18869.0,
+    "ask": 18882.0,
+    "spread_pct": 0.0688,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794510000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T20:45:52.902418+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306117000.0,
+    "ask": 1306118000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794510000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36876000.0,
+    "ask": 36880000.0,
+    "spread_pct": 0.0108,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794510000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18891.0,
+    "ask": 18892.0,
+    "spread_pct": 0.0053,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794510000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T21:13:51.261080+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1305642000.0,
+    "ask": 1306117000.0,
+    "spread_pct": 0.0364,
+    "status": "OK",
+    "candle": 1794513600,
+    "close": 1306117000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36849000.0,
+    "ask": 36873000.0,
+    "spread_pct": 0.0651,
+    "status": "OK",
+    "candle": 1794513600,
+    "close": 36804000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18913.0,
+    "ask": 18947.0,
+    "spread_pct": 0.1794,
+    "status": "OK",
+    "candle": 1794513600,
+    "close": 18905.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T21:28:12.364829+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306117000.0,
+    "ask": 1306118000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794513600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36925000.0,
+    "ask": 36939000.0,
+    "spread_pct": 0.0379,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794513600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18994.0,
+    "ask": 18995.0,
+    "spread_pct": 0.0053,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794513600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T21:43:14.190110+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306117000.0,
+    "ask": 1306118000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794513600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36932000.0,
+    "ask": 36938000.0,
+    "spread_pct": 0.0162,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794513600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19050.0,
+    "ask": 19054.0,
+    "spread_pct": 0.021,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794513600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T22:10:35.749552+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1307457000.0,
+    "ask": 1307918000.0,
+    "spread_pct": 0.0352,
+    "status": "OK",
+    "candle": 1794517200,
+    "close": 1308973000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36864000.0,
+    "ask": 36884000.0,
+    "spread_pct": 0.0542,
+    "status": "OK",
+    "candle": 1794517200,
+    "close": 36927000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18952.0,
+    "ask": 18958.0,
+    "spread_pct": 0.0316,
+    "status": "OK",
+    "candle": 1794517200,
+    "close": 18944.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T22:26:27.890215+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1305503000.0,
+    "ask": 1307056000.0,
+    "spread_pct": 0.1188,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794517200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36825000.0,
+    "ask": 36872000.0,
+    "spread_pct": 0.1275,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794517200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18936.0,
+    "ask": 18941.0,
+    "spread_pct": 0.0264,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794517200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T22:42:37.367989+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306508000.0,
+    "ask": 1307423000.0,
+    "spread_pct": 0.07,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794517200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36802000.0,
+    "ask": 36849000.0,
+    "spread_pct": 0.1275,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794517200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18930.0,
+    "ask": 18932.0,
+    "spread_pct": 0.0106,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794517200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T23:08:24.489838+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1306577000.0,
+    "ask": 1306818000.0,
+    "spread_pct": 0.0184,
+    "status": "OK",
+    "candle": 1794520800,
+    "close": 1306605000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36914000.0,
+    "ask": 36936000.0,
+    "spread_pct": 0.0596,
+    "status": "OK",
+    "candle": 1794520800,
+    "close": 36816000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18960.0,
+    "ask": 18978.0,
+    "spread_pct": 0.0948,
+    "status": "OK",
+    "candle": 1794520800,
+    "close": 18935.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T23:22:42.833932+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1305712000.0,
+    "ask": 1305713000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794520800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36861000.0,
+    "ask": 36862000.0,
+    "spread_pct": 0.0027,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794520800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18981.0,
+    "ask": 18982.0,
+    "spread_pct": 0.0053,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794520800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-12T23:39:45.448903+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1303470000.0,
+    "ask": 1303471000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794520800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36831000.0,
+    "ask": 36851000.0,
+    "spread_pct": 0.0543,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794520800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18957.0,
+    "ask": 18972.0,
+    "spread_pct": 0.0791,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794520800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T00:04:24.114260+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1305633000.0,
+    "ask": 1305940000.0,
+    "spread_pct": 0.0235,
+    "status": "OK",
+    "candle": 1794524400,
+    "close": 1305940000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36883000.0,
+    "ask": 36884000.0,
+    "spread_pct": 0.0027,
+    "status": "OK",
+    "candle": 1794524400,
+    "close": 36883000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 19029.0,
+    "ask": 19030.0,
+    "spread_pct": 0.0053,
+    "status": "OK",
+    "candle": 1794524400,
+    "close": 19027.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T00:24:32.452337+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1304000000.0,
+    "ask": 1304001000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794524400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36828000.0,
+    "ask": 36829000.0,
+    "spread_pct": 0.0027,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794524400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18960.0,
+    "ask": 18968.0,
+    "spread_pct": 0.0422,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794524400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T00:57:39.902678+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1297701000.0,
+    "ask": 1298437000.0,
+    "spread_pct": 0.0567,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794524400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36709000.0,
+    "ask": 36720000.0,
+    "spread_pct": 0.03,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794524400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18872.0,
+    "ask": 18899.0,
+    "spread_pct": 0.1429,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794524400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T01:36:23.136127+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1295606000.0,
+    "ask": 1296011000.0,
+    "spread_pct": 0.0312,
+    "status": "OK",
+    "candle": 1794528000,
+    "close": 1297702000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36710000.0,
+    "ask": 36740000.0,
+    "spread_pct": 0.0817,
+    "status": "OK",
+    "candle": 1794528000,
+    "close": 36688000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18813.0,
+    "ask": 18815.0,
+    "spread_pct": 0.0106,
+    "status": "OK",
+    "candle": 1794528000,
+    "close": 18883.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T01:51:58.590641+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1293195000.0,
+    "ask": 1294275000.0,
+    "spread_pct": 0.0834,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794528000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36658000.0,
+    "ask": 36703000.0,
+    "spread_pct": 0.1226,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794528000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18760.0,
+    "ask": 18807.0,
+    "spread_pct": 0.2499,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794528000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T02:01:46.233117+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1291670000.0,
+    "ask": 1293392000.0,
+    "spread_pct": 0.1331,
+    "status": "OK",
+    "candle": 1794531600,
+    "close": 1293516000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36693000.0,
+    "ask": 36696000.0,
+    "spread_pct": 0.0082,
+    "status": "OK",
+    "candle": 1794531600,
+    "close": 36693000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18751.0,
+    "ask": 18777.0,
+    "spread_pct": 0.1385,
+    "status": "OK",
+    "candle": 1794531600,
+    "close": 18779.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T02:43:25.371289+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1288435000.0,
+    "ask": 1288436000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794531600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36648000.0,
+    "ask": 36670000.0,
+    "spread_pct": 0.06,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794531600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18673.0,
+    "ask": 18709.0,
+    "spread_pct": 0.1924,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794531600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T03:12:19.094134+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1282292000.0,
+    "ask": 1282508000.0,
+    "spread_pct": 0.0168,
+    "status": "OK",
+    "candle": 1794535200,
+    "close": 1286772000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36418000.0,
+    "ask": 36614000.0,
+    "spread_pct": 0.5353,
+    "status": "OK",
+    "candle": 1794535200,
+    "close": 36648000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18605.0,
+    "ask": 18632.0,
+    "spread_pct": 0.1449,
+    "status": "OK",
+    "candle": 1794535200,
+    "close": 18710.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T03:32:32.579480+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1268912000.0,
+    "ask": 1271508000.0,
+    "spread_pct": 0.2042,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794535200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35846000.0,
+    "ask": 35954000.0,
+    "spread_pct": 0.3004,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794535200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18465.0,
+    "ask": 18517.0,
+    "spread_pct": 0.2808,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794535200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T03:49:18.119677+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1260640000.0,
+    "ask": 1263165000.0,
+    "spread_pct": 0.1999,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794535200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35617000.0,
+    "ask": 35635000.0,
+    "spread_pct": 0.0505,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794535200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18366.0,
+    "ask": 18371.0,
+    "spread_pct": 0.0272,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794535200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T04:23:14.179602+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1263502000.0,
+    "ask": 1264633000.0,
+    "spread_pct": 0.0894,
+    "status": "OK",
+    "candle": 1794538800,
+    "close": 1268000000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35500000.0,
+    "ask": 35528000.0,
+    "spread_pct": 0.0788,
+    "status": "OK",
+    "candle": 1794538800,
+    "close": 35443000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18431.0,
+    "ask": 18432.0,
+    "spread_pct": 0.0054,
+    "status": "OK",
+    "candle": 1794538800,
+    "close": 18419.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T04:40:35.439410+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1264935000.0,
+    "ask": 1267000000.0,
+    "spread_pct": 0.163,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794538800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35465000.0,
+    "ask": 35484000.0,
+    "spread_pct": 0.0535,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794538800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18439.0,
+    "ask": 18459.0,
+    "spread_pct": 0.1083,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794538800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T04:54:35.805605+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1262647000.0,
+    "ask": 1263997000.0,
+    "spread_pct": 0.1068,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794538800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35391000.0,
+    "ask": 35408000.0,
+    "spread_pct": 0.048,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794538800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18435.0,
+    "ask": 18458.0,
+    "spread_pct": 0.1246,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794538800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T05:25:26.740398+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1261389000.0,
+    "ask": 1261456000.0,
+    "spread_pct": 0.0053,
+    "status": "OK",
+    "candle": 1794542400,
+    "close": 1261723000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35336000.0,
+    "ask": 35337000.0,
+    "spread_pct": 0.0028,
+    "status": "OK",
+    "candle": 1794542400,
+    "close": 35408000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18589.0,
+    "ask": 18607.0,
+    "spread_pct": 0.0967,
+    "status": "OK",
+    "candle": 1794542400,
+    "close": 18472.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T05:40:17.129332+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1256015000.0,
+    "ask": 1256026000.0,
+    "spread_pct": 0.0009,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794542400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35157000.0,
+    "ask": 35167000.0,
+    "spread_pct": 0.0284,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794542400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18539.0,
+    "ask": 18545.0,
+    "spread_pct": 0.0324,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794542400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T05:55:52.399305+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1257507000.0,
+    "ask": 1257508000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794542400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35135000.0,
+    "ask": 35169000.0,
+    "spread_pct": 0.0967,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794542400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18539.0,
+    "ask": 18567.0,
+    "spread_pct": 0.1508,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794542400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T06:25:39.162988+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1257509000.0,
+    "ask": 1257510000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794546000,
+    "close": 1249502000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35415000.0,
+    "ask": 35458000.0,
+    "spread_pct": 0.1213,
+    "status": "OK",
+    "candle": 1794546000,
+    "close": 35061000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18766.0,
+    "ask": 18780.0,
+    "spread_pct": 0.0745,
+    "status": "OK",
+    "candle": 1794546000,
+    "close": 18576.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T06:40:58.140375+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1260517000.0,
+    "ask": 1263446000.0,
+    "spread_pct": 0.2318,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794546000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35450000.0,
+    "ask": 35466000.0,
+    "spread_pct": 0.0451,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794546000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18677.0,
+    "ask": 18723.0,
+    "spread_pct": 0.2457,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794546000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T07:05:16.967964+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1267132000.0,
+    "ask": 1267133000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794549600,
+    "close": 1266052000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35568000.0,
+    "ask": 35569000.0,
+    "spread_pct": 0.0028,
+    "status": "OK",
+    "candle": 1794549600,
+    "close": 35500000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18768.0,
+    "ask": 18798.0,
+    "spread_pct": 0.1596,
+    "status": "OK",
+    "candle": 1794549600,
+    "close": 18739.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T07:47:44.461076+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1260000000.0,
+    "ask": 1260001000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794549600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35508000.0,
+    "ask": 35514000.0,
+    "spread_pct": 0.0169,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794549600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18814.0,
+    "ask": 18821.0,
+    "spread_pct": 0.0372,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794549600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T07:57:04.277510+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1258156000.0,
+    "ask": 1258157000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794549600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35480000.0,
+    "ask": 35481000.0,
+    "spread_pct": 0.0028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794549600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18809.0,
+    "ask": 18810.0,
+    "spread_pct": 0.0053,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794549600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T08:20:35.220218+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1253324000.0,
+    "ask": 1253325000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794553200,
+    "close": 1257512000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35195000.0,
+    "ask": 35235000.0,
+    "spread_pct": 0.1135,
+    "status": "OK",
+    "candle": 1794553200,
+    "close": 35480000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18737.0,
+    "ask": 18744.0,
+    "spread_pct": 0.0373,
+    "status": "OK",
+    "candle": 1794553200,
+    "close": 18801.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T09:23:07.865428+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1255452000.0,
+    "ask": 1256424000.0,
+    "spread_pct": 0.0774,
+    "status": "OK",
+    "candle": 1794556800,
+    "close": 1254835000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35340000.0,
+    "ask": 35341000.0,
+    "spread_pct": 0.0028,
+    "status": "OK",
+    "candle": 1794556800,
+    "close": 35276000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18760.0,
+    "ask": 18764.0,
+    "spread_pct": 0.0213,
+    "status": "OK",
+    "candle": 1794556800,
+    "close": 18742.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T09:38:05.765845+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1258788000.0,
+    "ask": 1259154000.0,
+    "spread_pct": 0.0291,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794556800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35370000.0,
+    "ask": 35404000.0,
+    "spread_pct": 0.096,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794556800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18775.0,
+    "ask": 18801.0,
+    "spread_pct": 0.1383,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794556800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T09:54:35.685962+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1259001000.0,
+    "ask": 1262156000.0,
+    "spread_pct": 0.25,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794556800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35382000.0,
+    "ask": 35411000.0,
+    "spread_pct": 0.0819,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794556800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18732.0,
+    "ask": 18761.0,
+    "spread_pct": 0.1546,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794556800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T10:25:29.057020+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1264040000.0,
+    "ask": 1264041000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794560400,
+    "close": 1262240000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35603000.0,
+    "ask": 35604000.0,
+    "spread_pct": 0.0028,
+    "status": "OK",
+    "candle": 1794560400,
+    "close": 35487000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18762.0,
+    "ask": 18763.0,
+    "spread_pct": 0.0053,
+    "status": "OK",
+    "candle": 1794560400,
+    "close": 18761.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T10:39:21.749779+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1265536000.0,
+    "ask": 1265538000.0,
+    "spread_pct": 0.0002,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794560400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35604000.0,
+    "ask": 35693000.0,
+    "spread_pct": 0.2493,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794560400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18700.0,
+    "ask": 18726.0,
+    "spread_pct": 0.1388,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794560400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T10:56:54.906935+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1265000000.0,
+    "ask": 1265734000.0,
+    "spread_pct": 0.058,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794560400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35587000.0,
+    "ask": 35588000.0,
+    "spread_pct": 0.0028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794560400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18639.0,
+    "ask": 18662.0,
+    "spread_pct": 0.1232,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794560400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T11:23:11.617134+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1271111000.0,
+    "ask": 1271936000.0,
+    "spread_pct": 0.0649,
+    "status": "OK",
+    "candle": 1794564000,
+    "close": 1265071000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35835000.0,
+    "ask": 35855000.0,
+    "spread_pct": 0.0558,
+    "status": "OK",
+    "candle": 1794564000,
+    "close": 35588000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18638.0,
+    "ask": 18655.0,
+    "spread_pct": 0.0911,
+    "status": "OK",
+    "candle": 1794564000,
+    "close": 18650.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T11:35:39.019250+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1267171000.0,
+    "ask": 1267271000.0,
+    "spread_pct": 0.0079,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794564000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35773000.0,
+    "ask": 35819000.0,
+    "spread_pct": 0.1284,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794564000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18616.0,
+    "ask": 18653.0,
+    "spread_pct": 0.1984,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794564000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T11:51:20.920323+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1269801000.0,
+    "ask": 1269828000.0,
+    "spread_pct": 0.0021,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794564000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35871000.0,
+    "ask": 35872000.0,
+    "spread_pct": 0.0028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794564000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18729.0,
+    "ask": 18739.0,
+    "spread_pct": 0.0534,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794564000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T12:19:06.462692+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1269899000.0,
+    "ask": 1269900000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794567600,
+    "close": 1269008000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35830000.0,
+    "ask": 35869000.0,
+    "spread_pct": 0.1087,
+    "status": "OK",
+    "candle": 1794567600,
+    "close": 35858000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18751.0,
+    "ask": 18752.0,
+    "spread_pct": 0.0053,
+    "status": "OK",
+    "candle": 1794567600,
+    "close": 18728.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T12:39:15.705037+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1266321000.0,
+    "ask": 1266322000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794567600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35775000.0,
+    "ask": 35784000.0,
+    "spread_pct": 0.0252,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794567600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18660.0,
+    "ask": 18661.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794567600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T12:58:22.310947+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1265320000.0,
+    "ask": 1265321000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794567600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35775000.0,
+    "ask": 35786000.0,
+    "spread_pct": 0.0307,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794567600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18639.0,
+    "ask": 18640.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794567600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T13:37:16.365278+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1274332000.0,
+    "ask": 1275425000.0,
+    "spread_pct": 0.0857,
+    "status": "OK",
+    "candle": 1794571200,
+    "close": 1265320000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 36066000.0,
+    "ask": 36072000.0,
+    "spread_pct": 0.0166,
+    "status": "OK",
+    "candle": 1794571200,
+    "close": 35775000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18856.0,
+    "ask": 18879.0,
+    "spread_pct": 0.1218,
+    "status": "OK",
+    "candle": 1794571200,
+    "close": 18639.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T13:53:57.502278+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1271956000.0,
+    "ask": 1272011000.0,
+    "spread_pct": 0.0043,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794571200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35953000.0,
+    "ask": 36004000.0,
+    "spread_pct": 0.1417,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794571200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18879.0,
+    "ask": 18911.0,
+    "spread_pct": 0.1692,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794571200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T14:10:07.057665+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1267934000.0,
+    "ask": 1267935000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794574800,
+    "close": 1270000000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35863000.0,
+    "ask": 35910000.0,
+    "spread_pct": 0.1309,
+    "status": "OK",
+    "candle": 1794574800,
+    "close": 35966000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18796.0,
+    "ask": 18819.0,
+    "spread_pct": 0.1222,
+    "status": "OK",
+    "candle": 1794574800,
+    "close": 18873.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T15:12:25.049590+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1254834000.0,
+    "ask": 1255000000.0,
+    "spread_pct": 0.0132,
+    "status": "OK",
+    "candle": 1794578400,
+    "close": 1259561000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35370000.0,
+    "ask": 35398000.0,
+    "spread_pct": 0.0791,
+    "status": "OK",
+    "candle": 1794578400,
+    "close": 35621000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18764.0,
+    "ask": 18794.0,
+    "spread_pct": 0.1596,
+    "status": "OK",
+    "candle": 1794578400,
+    "close": 18861.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T15:27:31.945691+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1252082000.0,
+    "ask": 1252085000.0,
+    "spread_pct": 0.0002,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794578400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35105000.0,
+    "ask": 35139000.0,
+    "spread_pct": 0.0968,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794578400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18596.0,
+    "ask": 18608.0,
+    "spread_pct": 0.0645,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794578400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T15:44:19.630551+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1243910000.0,
+    "ask": 1244101000.0,
+    "spread_pct": 0.0154,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794578400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34937000.0,
+    "ask": 34966000.0,
+    "spread_pct": 0.0829,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794578400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18451.0,
+    "ask": 18505.0,
+    "spread_pct": 0.2918,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794578400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T16:16:22.525155+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1250000000.0,
+    "ask": 1250128000.0,
+    "spread_pct": 0.0102,
+    "status": "OK",
+    "candle": 1794582000,
+    "close": 1255340000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35105000.0,
+    "ask": 35173000.0,
+    "spread_pct": 0.1933,
+    "status": "OK",
+    "candle": 1794582000,
+    "close": 35279000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18501.0,
+    "ask": 18504.0,
+    "spread_pct": 0.0162,
+    "status": "OK",
+    "candle": 1794582000,
+    "close": 18640.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T16:34:18.403273+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1253004000.0,
+    "ask": 1254000000.0,
+    "spread_pct": 0.0794,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794582000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35223000.0,
+    "ask": 35260000.0,
+    "spread_pct": 0.1049,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794582000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18506.0,
+    "ask": 18507.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794582000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T16:49:48.769508+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1253753000.0,
+    "ask": 1253999000.0,
+    "spread_pct": 0.0196,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794582000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35188000.0,
+    "ask": 35198000.0,
+    "spread_pct": 0.0284,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794582000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18532.0,
+    "ask": 18560.0,
+    "spread_pct": 0.1509,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794582000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T17:19:57.894568+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1253879000.0,
+    "ask": 1253880000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794585600,
+    "close": 1253999000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35204000.0,
+    "ask": 35205000.0,
+    "spread_pct": 0.0028,
+    "status": "OK",
+    "candle": 1794585600,
+    "close": 35217000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18576.0,
+    "ask": 18589.0,
+    "spread_pct": 0.0699,
+    "status": "OK",
+    "candle": 1794585600,
+    "close": 18566.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T17:33:47.026234+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1253753000.0,
+    "ask": 1255663000.0,
+    "spread_pct": 0.1521,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794585600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35260000.0,
+    "ask": 35311000.0,
+    "spread_pct": 0.1444,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794585600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18674.0,
+    "ask": 18684.0,
+    "spread_pct": 0.0535,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794585600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T17:45:50.484457+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1256796000.0,
+    "ask": 1259941000.0,
+    "spread_pct": 0.2496,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794585600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35480000.0,
+    "ask": 35481000.0,
+    "spread_pct": 0.0028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794585600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18694.0,
+    "ask": 18714.0,
+    "spread_pct": 0.1069,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794585600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T18:10:47.587818+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1256800000.0,
+    "ask": 1257962000.0,
+    "spread_pct": 0.0924,
+    "status": "OK",
+    "candle": 1794589200,
+    "close": 1259070000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35387000.0,
+    "ask": 35429000.0,
+    "spread_pct": 0.1185,
+    "status": "OK",
+    "candle": 1794589200,
+    "close": 35364000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18634.0,
+    "ask": 18635.0,
+    "spread_pct": 0.0054,
+    "status": "OK",
+    "candle": 1794589200,
+    "close": 18634.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T18:29:02.060520+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1256924000.0,
+    "ask": 1258392000.0,
+    "spread_pct": 0.1167,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794589200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35412000.0,
+    "ask": 35466000.0,
+    "spread_pct": 0.1523,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794589200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18663.0,
+    "ask": 18696.0,
+    "spread_pct": 0.1765,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794589200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T18:46:39.185728+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1256977000.0,
+    "ask": 1257160000.0,
+    "spread_pct": 0.0146,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794589200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35434000.0,
+    "ask": 35437000.0,
+    "spread_pct": 0.0085,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794589200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18705.0,
+    "ask": 18733.0,
+    "spread_pct": 0.1495,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794589200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T19:23:34.626202+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1258506000.0,
+    "ask": 1260076000.0,
+    "spread_pct": 0.1246,
+    "status": "OK",
+    "candle": 1794592800,
+    "close": 1259079000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35596000.0,
+    "ask": 35597000.0,
+    "spread_pct": 0.0028,
+    "status": "OK",
+    "candle": 1794592800,
+    "close": 35468000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18708.0,
+    "ask": 18733.0,
+    "spread_pct": 0.1335,
+    "status": "OK",
+    "candle": 1794592800,
+    "close": 18729.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T19:37:28.963838+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1260001000.0,
+    "ask": 1261192000.0,
+    "spread_pct": 0.0944,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794592800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35584000.0,
+    "ask": 35629000.0,
+    "spread_pct": 0.1263,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794592800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18767.0,
+    "ask": 18786.0,
+    "spread_pct": 0.1011,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794592800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T19:50:39.389585+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1259327000.0,
+    "ask": 1259500000.0,
+    "spread_pct": 0.0137,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794592800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35584000.0,
+    "ask": 35585000.0,
+    "spread_pct": 0.0028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794592800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18730.0,
+    "ask": 18731.0,
+    "spread_pct": 0.0053,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794592800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T20:18:29.051131+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1258822000.0,
+    "ask": 1261192000.0,
+    "spread_pct": 0.1879,
+    "status": "OK",
+    "candle": 1794596400,
+    "close": 1260636000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35688000.0,
+    "ask": 35722000.0,
+    "spread_pct": 0.0952,
+    "status": "OK",
+    "candle": 1794596400,
+    "close": 35629000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18761.0,
+    "ask": 18792.0,
+    "spread_pct": 0.165,
+    "status": "OK",
+    "candle": 1794596400,
+    "close": 18749.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T20:33:54.704525+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1258819000.0,
+    "ask": 1259152000.0,
+    "spread_pct": 0.0264,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794596400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35584000.0,
+    "ask": 35585000.0,
+    "spread_pct": 0.0028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794596400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18730.0,
+    "ask": 18745.0,
+    "spread_pct": 0.08,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794596400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T20:49:47.694900+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1258819000.0,
+    "ask": 1258821000.0,
+    "spread_pct": 0.0002,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794596400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35526000.0,
+    "ask": 35581000.0,
+    "spread_pct": 0.1546,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794596400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18688.0,
+    "ask": 18702.0,
+    "spread_pct": 0.0749,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794596400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T21:13:41.891767+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1254001000.0,
+    "ask": 1254002000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794600000,
+    "close": 1258821000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35391000.0,
+    "ask": 35450000.0,
+    "spread_pct": 0.1664,
+    "status": "OK",
+    "candle": 1794600000,
+    "close": 35589000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18514.0,
+    "ask": 18515.0,
+    "spread_pct": 0.0054,
+    "status": "OK",
+    "candle": 1794600000,
+    "close": 18693.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T21:30:00.718588+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1249389000.0,
+    "ask": 1250443000.0,
+    "spread_pct": 0.0843,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794600000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35283000.0,
+    "ask": 35341000.0,
+    "spread_pct": 0.1641,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794600000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18448.0,
+    "ask": 18450.0,
+    "spread_pct": 0.0108,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794600000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T21:43:49.822375+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1245441000.0,
+    "ask": 1245447000.0,
+    "spread_pct": 0.0005,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794600000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35059000.0,
+    "ask": 35111000.0,
+    "spread_pct": 0.1481,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794600000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18430.0,
+    "ask": 18431.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794600000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T22:08:23.373598+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1248290000.0,
+    "ask": 1248385000.0,
+    "spread_pct": 0.0076,
+    "status": "OK",
+    "candle": 1794603600,
+    "close": 1249999000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35091000.0,
+    "ask": 35142000.0,
+    "spread_pct": 0.1451,
+    "status": "OK",
+    "candle": 1794603600,
+    "close": 35225000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18430.0,
+    "ask": 18451.0,
+    "spread_pct": 0.1138,
+    "status": "OK",
+    "candle": 1794603600,
+    "close": 18501.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T22:25:50.696282+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1247176000.0,
+    "ask": 1247829000.0,
+    "spread_pct": 0.0523,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794603600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35101000.0,
+    "ask": 35153000.0,
+    "spread_pct": 0.1479,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794603600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18410.0,
+    "ask": 18462.0,
+    "spread_pct": 0.2817,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794603600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T22:40:15.461328+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1248241000.0,
+    "ask": 1249779000.0,
+    "spread_pct": 0.1231,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794603600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35207000.0,
+    "ask": 35249000.0,
+    "spread_pct": 0.1192,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794603600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18420.0,
+    "ask": 18440.0,
+    "spread_pct": 0.1085,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794603600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T23:05:39.117946+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1243659000.0,
+    "ask": 1243957000.0,
+    "spread_pct": 0.024,
+    "status": "OK",
+    "candle": 1794607200,
+    "close": 1248244000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35064000.0,
+    "ask": 35108000.0,
+    "spread_pct": 0.1253,
+    "status": "OK",
+    "candle": 1794607200,
+    "close": 35206000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18362.0,
+    "ask": 18384.0,
+    "spread_pct": 0.1197,
+    "status": "OK",
+    "candle": 1794607200,
+    "close": 18443.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T23:23:14.093334+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1241654000.0,
+    "ask": 1241659000.0,
+    "spread_pct": 0.0004,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35059000.0,
+    "ask": 35060000.0,
+    "spread_pct": 0.0029,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18347.0,
+    "ask": 18368.0,
+    "spread_pct": 0.1143,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T23:37:05.483303+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1245569000.0,
+    "ask": 1246500000.0,
+    "spread_pct": 0.0747,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35137000.0,
+    "ask": 35185000.0,
+    "spread_pct": 0.1364,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18418.0,
+    "ask": 18421.0,
+    "spread_pct": 0.0163,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-13T23:57:47.300380+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1246541000.0,
+    "ask": 1247596000.0,
+    "spread_pct": 0.0846,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35216000.0,
+    "ask": 35265000.0,
+    "spread_pct": 0.1389,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18455.0,
+    "ask": 18476.0,
+    "spread_pct": 0.1137,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794607200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T00:18:13.564709+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1247910000.0,
+    "ask": 1249692000.0,
+    "spread_pct": 0.1426,
+    "status": "OK",
+    "candle": 1794610800,
+    "close": 1248637000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35323000.0,
+    "ask": 35366000.0,
+    "spread_pct": 0.1216,
+    "status": "OK",
+    "candle": 1794610800,
+    "close": 35254000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18494.0,
+    "ask": 18510.0,
+    "spread_pct": 0.0864,
+    "status": "OK",
+    "candle": 1794610800,
+    "close": 18468.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T00:52:14.444172+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1248639000.0,
+    "ask": 1249804000.0,
+    "spread_pct": 0.0932,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794610800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35301000.0,
+    "ask": 35317000.0,
+    "spread_pct": 0.0453,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794610800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18494.0,
+    "ask": 18495.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794610800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T01:31:39.017171+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1248000000.0,
+    "ask": 1248637000.0,
+    "spread_pct": 0.051,
+    "status": "OK",
+    "candle": 1794614400,
+    "close": 1248640000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35265000.0,
+    "ask": 35304000.0,
+    "spread_pct": 0.1105,
+    "status": "OK",
+    "candle": 1794614400,
+    "close": 35315000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18407.0,
+    "ask": 18423.0,
+    "spread_pct": 0.0868,
+    "status": "OK",
+    "candle": 1794614400,
+    "close": 18458.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T01:46:59.300041+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1248324000.0,
+    "ask": 1248634000.0,
+    "spread_pct": 0.0248,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794614400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35273000.0,
+    "ask": 35289000.0,
+    "spread_pct": 0.0453,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794614400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18450.0,
+    "ask": 18451.0,
+    "spread_pct": 0.0054,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794614400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T01:56:47.923829+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1248400000.0,
+    "ask": 1248401000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794614400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 35273000.0,
+    "ask": 35274000.0,
+    "spread_pct": 0.0028,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794614400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18358.0,
+    "ask": 18376.0,
+    "spread_pct": 0.098,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794614400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T02:30:57.100050+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1230000000.0,
+    "ask": 1230314000.0,
+    "spread_pct": 0.0255,
+    "status": "OK",
+    "candle": 1794618000,
+    "close": 1248401000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34455000.0,
+    "ask": 35072000.0,
+    "spread_pct": 1.7592,
+    "status": "OK",
+    "candle": 1794618000,
+    "close": 35186000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18109.0,
+    "ask": 18115.0,
+    "spread_pct": 0.0331,
+    "status": "OK",
+    "candle": 1794618000,
+    "close": 18350.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T02:44:59.237397+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1234568000.0,
+    "ask": 1235449000.0,
+    "spread_pct": 0.0713,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794618000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34813000.0,
+    "ask": 34815000.0,
+    "spread_pct": 0.0057,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794618000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18256.0,
+    "ask": 18273.0,
+    "spread_pct": 0.093,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794618000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T03:13:50.713624+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1237101000.0,
+    "ask": 1237832000.0,
+    "spread_pct": 0.0591,
+    "status": "OK",
+    "candle": 1794621600,
+    "close": 1237979000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34950000.0,
+    "ask": 34978000.0,
+    "spread_pct": 0.0801,
+    "status": "OK",
+    "candle": 1794621600,
+    "close": 34951000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18298.0,
+    "ask": 18328.0,
+    "spread_pct": 0.1637,
+    "status": "OK",
+    "candle": 1794621600,
+    "close": 18334.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T03:29:55.845322+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1232999000.0,
+    "ask": 1233000000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794621600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34915000.0,
+    "ask": 34922000.0,
+    "spread_pct": 0.02,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794621600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18322.0,
+    "ask": 18332.0,
+    "spread_pct": 0.0545,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794621600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T03:46:09.501889+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1227055000.0,
+    "ask": 1229097000.0,
+    "spread_pct": 0.1661,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794621600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34604000.0,
+    "ask": 34647000.0,
+    "spread_pct": 0.1241,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794621600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18197.0,
+    "ask": 18222.0,
+    "spread_pct": 0.1372,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794621600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T04:17:53.233294+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1224019000.0,
+    "ask": 1224994000.0,
+    "spread_pct": 0.0796,
+    "status": "OK",
+    "candle": 1794625200,
+    "close": 1229999000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34662000.0,
+    "ask": 34663000.0,
+    "spread_pct": 0.0029,
+    "status": "OK",
+    "candle": 1794625200,
+    "close": 34530000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18190.0,
+    "ask": 18222.0,
+    "spread_pct": 0.1756,
+    "status": "OK",
+    "candle": 1794625200,
+    "close": 18181.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T04:32:28.355375+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1225005000.0,
+    "ask": 1226000000.0,
+    "spread_pct": 0.0812,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794625200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34739000.0,
+    "ask": 34746000.0,
+    "spread_pct": 0.0201,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794625200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18208.0,
+    "ask": 18209.0,
+    "spread_pct": 0.0055,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794625200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T04:47:49.627834+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1228170000.0,
+    "ask": 1231383000.0,
+    "spread_pct": 0.2609,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794625200
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34696000.0,
+    "ask": 34748000.0,
+    "spread_pct": 0.1496,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794625200
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18187.0,
+    "ask": 18188.0,
+    "spread_pct": 0.0055,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794625200
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T05:16:49.480980+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1230000000.0,
+    "ask": 1231385000.0,
+    "spread_pct": 0.1125,
+    "status": "OK",
+    "candle": 1794628800,
+    "close": 1226017000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34862000.0,
+    "ask": 34881000.0,
+    "spread_pct": 0.0545,
+    "status": "OK",
+    "candle": 1794628800,
+    "close": 34837000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18285.0,
+    "ask": 18288.0,
+    "spread_pct": 0.0164,
+    "status": "OK",
+    "candle": 1794628800,
+    "close": 18243.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T05:30:58.931971+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1229451000.0,
+    "ask": 1230899000.0,
+    "spread_pct": 0.1176,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794628800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34825000.0,
+    "ask": 34880000.0,
+    "spread_pct": 0.1577,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794628800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18280.0,
+    "ask": 18288.0,
+    "spread_pct": 0.0437,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794628800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T05:46:12.220085+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1227024000.0,
+    "ask": 1229014000.0,
+    "spread_pct": 0.1619,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794628800
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34758000.0,
+    "ask": 34810000.0,
+    "spread_pct": 0.1494,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794628800
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18198.0,
+    "ask": 18226.0,
+    "spread_pct": 0.1536,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794628800
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T06:11:11.383066+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1231384000.0,
+    "ask": 1231385000.0,
+    "spread_pct": 0.0001,
+    "status": "OK",
+    "candle": 1794632400,
+    "close": 1229014000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34886000.0,
+    "ask": 34927000.0,
+    "spread_pct": 0.1174,
+    "status": "OK",
+    "candle": 1794632400,
+    "close": 34844000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18275.0,
+    "ask": 18287.0,
+    "spread_pct": 0.0656,
+    "status": "OK",
+    "candle": 1794632400,
+    "close": 18202.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T06:31:41.063063+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1231241000.0,
+    "ask": 1231385000.0,
+    "spread_pct": 0.0117,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794632400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34907000.0,
+    "ask": 34908000.0,
+    "spread_pct": 0.0029,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794632400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18250.0,
+    "ask": 18251.0,
+    "spread_pct": 0.0055,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794632400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T06:52:38.849405+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1233228000.0,
+    "ask": 1233229000.0,
+    "spread_pct": 0.0001,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794632400
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34820000.0,
+    "ask": 34878000.0,
+    "spread_pct": 0.1663,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794632400
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18165.0,
+    "ask": 18193.0,
+    "spread_pct": 0.1539,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794632400
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T07:31:40.843554+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1229476000.0,
+    "ask": 1231005000.0,
+    "spread_pct": 0.1242,
+    "status": "OK",
+    "candle": 1794636000,
+    "close": 1233229000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34677000.0,
+    "ask": 34756000.0,
+    "spread_pct": 0.2273,
+    "status": "OK",
+    "candle": 1794636000,
+    "close": 34861000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18024.0,
+    "ask": 18026.0,
+    "spread_pct": 0.0111,
+    "status": "OK",
+    "candle": 1794636000,
+    "close": 18182.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T07:43:34.921028+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1230155000.0,
+    "ask": 1230636000.0,
+    "spread_pct": 0.0391,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794636000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34758000.0,
+    "ask": 34773000.0,
+    "spread_pct": 0.0431,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794636000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18006.0,
+    "ask": 18019.0,
+    "spread_pct": 0.0721,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794636000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T07:56:34.075238+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1232996000.0,
+    "ask": 1234704000.0,
+    "spread_pct": 0.1383,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794636000
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34867000.0,
+    "ask": 34915000.0,
+    "spread_pct": 0.1375,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794636000
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18040.0,
+    "ask": 18063.0,
+    "spread_pct": 0.1273,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794636000
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T08:29:02.801420+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1232552000.0,
+    "ask": 1232998000.0,
+    "spread_pct": 0.0362,
+    "status": "OK",
+    "candle": 1794639600,
+    "close": 1233409000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34940000.0,
+    "ask": 34979000.0,
+    "spread_pct": 0.1115,
+    "status": "OK",
+    "candle": 1794639600,
+    "close": 34805000.0,
+    "sinyal": "HOLD"
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18092.0,
+    "ask": 18120.0,
+    "spread_pct": 0.1545,
+    "status": "OK",
+    "candle": 1794639600,
+    "close": 18065.0,
+    "sinyal": "HOLD"
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ },
+ {
+  "waktu_utc": "2026-11-14T08:45:37.801799+00:00",
+  "hasil": [
+   {
+    "pair": "BTCIDR",
+    "bid": 1230685000.0,
+    "ask": 1230896000.0,
+    "spread_pct": 0.0171,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794639600
+   },
+   {
+    "pair": "ETHIDR",
+    "bid": 34841000.0,
+    "ask": 34893000.0,
+    "spread_pct": 0.149,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794639600
+   },
+   {
+    "pair": "XRPIDR",
+    "bid": 18081.0,
+    "ask": 18107.0,
+    "spread_pct": 0.1436,
+    "status": "SUDAH_DIPROSES",
+    "candle": 1794639600
+   }
+  ],
+  "error": [],
+  "equity": 98326735.12326536,
+  "cash": 98326735.12326536,
+  "posisi": [],
+  "daily_loss_halt": false
+ }
+]

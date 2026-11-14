@@ -1,8 +1,8 @@
 {
  "jendela_candle_awal": 1794297600,
- "jendela_candle_akhir": 1794456000,
- "candle_dibandingkan": 117,
- "sinyal_sama": 117,
+ "jendela_candle_akhir": 1794639600,
+ "candle_dibandingkan": 267,
+ "sinyal_sama": 267,
  "kecocokan_pct": 100.0,
  "sinyal_berbeda": [],
  "candle_tidak_diproses_bot": [
@@ -77,8 +77,21 @@
   {
    "pair": "XRPIDR",
    "candle": 1794438000
+  },
+  {
+   "pair": "BTCIDR",
+   "candle": 1794459600
+  },
+  {
+   "pair": "ETHIDR",
+   "candle": 1794459600
+  },
+  {
+   "pair": "XRPIDR",
+   "candle": 1794459600
   }
  ],
+ "buy_hold_btc_jendela_pct": -8.738,
  "trade_backtest_pada_jendela": 3,
  "perbandingan_fill": [
   {
@@ -155,7 +168,7 @@
   }
  ],
  "metrik_backtest_jendela": {
-  "periode": "10-11-2026 s/d 12-11-2026 (0,0 tahun)",
+  "periode": "10-11-2026 s/d 14-11-2026 (0,0 tahun)",
   "return_pct": -1.76,
   "cagr_pct": null,
   "max_drawdown_pct": -1.76,
